@@ -4,7 +4,7 @@
 
 ### One line install and setup
 
-    git clone git@favmed.unfuddle.com:favmed/ucsf-patternlab.git && cd ucsf-patternlab && bash scripts/setup-everything.sh
+    git clone https://github.com/ucsf-web-services/ucsf-udar-patternlab.git && cd ucsf-udar-patternlab && bash scripts/setup-everything.sh
   
 Already downloaded the repo? Just run this to make you've got dependencies and helpers taken care of:
   
