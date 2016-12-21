@@ -1,0 +1,16 @@
+{
+	"stats_card_items" : [
+		{
+			"data" : "#1",
+			"description" : "Bay Area hospital for treatment of the most vulnerable populations"
+		},
+		{
+			"data" : "34",
+			"description" : "The UCSF Global Health Group is active in 34 countries"
+		},
+		{
+			"data" : "$2.17B",
+			"description" : "Total operating budget"
+		}
+	]
+}

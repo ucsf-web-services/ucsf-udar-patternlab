@@ -1,0 +1,35 @@
+{
+	"whats_hot_list_title" : "What's Hot",
+	"whats_hot_items" : [
+		{
+			"wh_item_link" : "#",
+			"wh_item_heading" : "Erat Donec ut Tincidunt",
+			"wh_item_body" : "<p>Cras risus lectus, mattis sit amet diam in, cursus ornare leo. Praesent sed tincidunt ligula. Ut quis metus hendrerit, bibendum felis sit amet, viverra lorem.</p>"
+		},
+		{
+			"wh_item_link" : "",
+			"wh_item_heading" : "Erat Donec ut Tincidunt",
+			"wh_item_body" : "<p>Cras risus lectus, mattis sit amet diam in, cursus ornare leo. Praesent sed tincidunt ligula. Ut quis metus hendrerit, bibendum felis sit amet, viverra lorem.</p>"
+		},
+		{
+			"wh_item_link" : "#",
+			"wh_item_heading" : "Erat Donec ut Tincidunt",
+			"wh_item_body" : "<p>Cras risus lectus, mattis sit amet diam in, cursus ornare leo. Praesent sed tincidunt ligula. Ut quis metus hendrerit, bibendum felis sit amet, viverra lorem.</p>"
+		},
+		{
+			"wh_item_link" : "",
+			"wh_item_heading" : "Erat Donec ut Tincidunt",
+			"wh_item_body" : "<p>Cras risus lectus, mattis sit amet diam in, cursus ornare leo. Praesent sed tincidunt ligula. Ut quis metus hendrerit, bibendum felis sit amet, viverra lorem.</p>"
+		},
+		{
+			"wh_item_link" : "#",
+			"wh_item_heading" : "Erat Donec ut Tincidunt",
+			"wh_item_body" : "<p>Cras risus lectus, mattis sit amet diam in, cursus ornare leo. Praesent sed tincidunt ligula. Ut quis metus hendrerit, bibendum felis sit amet, viverra lorem.</p>"
+		},
+		{
+			"wh_item_link" : "",
+			"wh_item_heading" : "Erat Donec ut Tincidunt",
+			"wh_item_body" : "<p>Cras risus lectus, mattis sit amet diam in, cursus ornare leo. Praesent sed tincidunt ligula. Ut quis metus hendrerit, bibendum felis sit amet, viverra lorem.</p>"
+		}
+	]
+}

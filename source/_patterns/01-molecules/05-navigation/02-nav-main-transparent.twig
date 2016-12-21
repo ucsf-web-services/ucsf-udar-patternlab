@@ -1,0 +1,107 @@
+<nav class="nav--wrapper">
+	<div class="nav-main--wrapper">
+		<div class="content-area">
+			<div class="nav-main">
+				<div class="nav-main-brand">
+					{% block branding %}
+						<a href="#" title="Giving to UCSF">
+							<img class="nav-logo" src="{{ logo_box }}" alt="UCSF Navy Logo Box">
+							<span class="nav-site-title">Giving to UCSF</span>
+						</a>
+					{% endblock %}
+				</div>
+
+
+				<ul class="nav-mobile-toggles">
+					<li><button class="mobile-search-form-toggle"><span class="fa fa-search"></span></button></li>
+					<li><button class="mobile-menu-toggle"><span class="fa fa-bars"></span></button></li>
+				</ul>
+
+				<ul class="nav-main-links">
+					{% block main_navigation %}
+						{% if nav_links.links %}
+							{% for item in nav_links.links %}
+								<li>
+									<a href="{{ item.link }}">{{ item.label }}</a>
+									{% if item.sublinks %}
+										<div class="line"><span></span></div>
+										<ul class="dropdown-menu">
+										{% for item in item.sublinks %}
+											<li><a href="{{ item.link }}">{{ item.label }}</a></li>
+										{% endfor %}
+										</ul>
+									{% endif %}
+								</li>
+							{% endfor %}
+						{% endif %}
+					{% endblock %}
+					{% block give_button %}
+					<li><a class="btn btn--with-icon header-give-btn" href="#">Give <span class="fa fa-heart"></span></a></li>
+					{% endblock %}
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="nav-main-mobile-search">
+		<div class="content-area">
+			<form action="" method="GET" name="form-search">
+				<fieldset>
+					<legend class="visually-hidden">Search</legend>
+					<div class="mobile-search-field--wrapper">
+						<div class="mobile-field-ui">
+							<span class="placeholder">Search giving.ucsf.edu </span>
+							<input class="input-text" type="text" name="search" id="searchMobile">
+							<span class="fa fa-search search-icon"></span>
+							<label for="searchMobile" class="visually-hidden">Search giving.ucsf.edu</label>
+							<a class="hidden anchor" name="search-button" id="search-button">Go</a>
+						</div>
+					</div>
+					<div class="mobile-search-advanced-form">
+						<div class="mobile-search-option">
+							<div class="radio-circle">
+								<input type="radio" name="search-type" id="search-type-ucsf-mobile" value="all">
+								<div class="radio-ui"><span class="fa fa-check checkmark"></span></div>
+							</div>
+							<label for="search-type-ucsf-mobile">All UCSF</label>
+						</div>
+						<div class="mobile-search-option">
+							<div class="radio-circle">
+								<input type="radio" name="search-type" id="search-type-give-mobile" value="give">
+								<div class="radio-ui"><span class="fa fa-check checkmark"></span></div>
+							</div>
+							<label for="search-type-give-mobile">giving.ucsf.edu</label>
+						</div>
+						<div class="advanced-form-close-button visually-hidden"><img src="{{ nav_close_icon }}" alt="Close Icon"></div>
+					</div>
+				</fieldset>
+				<div class="mobile-search-submit--wrapper">
+					<button class="btn btn--secondary search-submit" type="submit">Search</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="nav-main-mobile" aria-hidden="true">
+		<div class="content-area">
+			<ul class="">
+				{% block mobile_navigation %}
+					{% for item in nav_links.links %}
+						<li role="menuitem" aria-haspopup="true">
+							<a href="{{ item.link }}">{{ item.label }}</a>
+							{% if item.sublinks %}
+							<span class="display-arrow fa fa-play"></span>
+							<ul class="dropdown-menu">
+							{% for item in item.sublinks %}
+								<li><a href="{{ item.link }}">{{ item.label }}</a></li>
+							{% endfor %}
+							</ul>
+							{% endif %}
+						</li>
+					{% endfor %}
+				{% endblock %}
+			</ul>
+		</div>
+	</div>
+</nav>
+<script>
+    document.getElementsByClassName('body-content--wrapper')[0].className+=' transparent';
+</script>

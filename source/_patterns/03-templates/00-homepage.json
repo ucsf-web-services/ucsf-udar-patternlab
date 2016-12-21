@@ -1,0 +1,120 @@
+{
+    "background_image" : "https://placeholdit.imgix.net/~text?txtsize=26&w=1440&h=400&bg=052059",
+    "img" : {
+        "ways_to_give_bg" : {
+            "src" : "https://placeholdit.imgix.net/~text?txtsize=26&w=1440&h=400"
+        }
+    },
+    "funding_priorities" : {
+        "items" : [
+            {
+                "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+                "link_text" : "Lorem ipsum",
+                "link_href" : "#",
+                "content_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            },
+            {
+                "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+                "link_text" : "Lorem ipsum",
+                "link_href" : "#",
+                "content_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            },
+            {
+                "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+                "link_text" : "Lorem ipsum",
+                "link_href" : "#",
+                "content_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            },
+            {
+                "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+                "link_text" : "Lorem ipsum",
+                "link_href" : "#",
+                "content_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            },
+            {
+                "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+                "link_text" : "Lorem ipsum",
+                "link_href" : "#",
+                "content_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            },
+            {
+                "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+                "link_text" : "Lorem ipsum",
+                "link_href" : "#",
+                "content_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            },
+            {
+                "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+                "link_text" : "Lorem ipsum",
+                "link_href" : "#",
+                "content_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            },
+            {
+                "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+                "link_text" : "Lorem ipsum",
+                "link_href" : "#",
+                "content_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            },
+            {
+                "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+                "link_text" : "Lorem ipsum",
+                "link_href" : "#",
+                "content_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            }
+        ]
+    },
+    "alert" : {
+        "text" : "<b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit. Morbi euismod ligula ac lacinia tempor."
+    },
+    "homepage_impact_stories" : {
+        "first" : {
+            "title" : "Lorem ipsum dolor sit amet",
+            "copy_text" : "Consectetur adipiscing elit. Morbi euismod ligula ac lacinia tempor.",
+            "link" : "#",
+            "image_url" : "https://placeholdit.imgix.net/~text?txtsize=26&w=1440&h=400"
+        },
+        "second" : {
+            "title" : "Lorem ipsum dolor sit amet",
+            "copy_text" : "Consectetur adipiscing elit. Morbi euismod ligula ac lacinia tempor.",
+            "link" : "#",
+            "image_url" : "https://placeholdit.imgix.net/~text?txtsize=26&w=1440&h=400"
+        },
+        "third" : {
+            "title" : "Lorem ipsum dolor sit amet",
+            "copy_text" : "Consectetur adipiscing elit. Morbi euismod ligula ac lacinia tempor.",
+            "link" : "#",
+            "image_url" : "https://placeholdit.imgix.net/~text?txtsize=26&w=1440&h=400"
+        }
+    },
+    "start_fundraiser": {
+        "title" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "body_text" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+        "link_url" : "#",
+        "link_label" : "Start a Fundraiser"
+    },
+    "give_to": {
+        "title" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+        "body_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "link_url" : "#",
+        "link_label" : "Give to UCSF "
+    },
+    "give_ways_content" : {
+        "full" : {
+          "heading" : "Lorem ipsum dolor sit amet",
+          "body" : "Morbi euismod ligula ac lacinia tempor. In ullamcorper rhoncus nunc, non dapibus urna facilisis sed. Duis rutrum viverra mauris non fringilla. Morbi sit amet vestibulum felis, eget ultrices urna. Morbi ipsum orci, gravida ut justo non, congue mattis dolor.",
+          "cta" : {
+            "label" : "consectetur adipiscing elit",
+            "link" : "#"
+          }
+        },
+        "small" : {
+          "heading" : "Give a Gift of Tribute",
+          "body" : "",
+          "cta" : ""
+        }
+    },
+    "heading" : "Your text here.",
+    "link_text" : "Your link here",
+    "link_href" : "#",
+    "alignment" : "right"
+}

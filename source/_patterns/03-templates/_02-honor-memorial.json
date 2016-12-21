@@ -1,0 +1,8 @@
+{
+	"title" : "Lorep Ipsum Dolor Sit Amet",
+	"intro_text": "<p>Lorem ipsum dolor <strong>sit amet</strong>, consectetur adipiscing elit. Maecenas orci ipsum, dictum eget vehicula sed, lobortis ac dui.</p><p>Pellentesque <strong>sapien est</strong>, venenatis iaculis ultrices non, facilisis eget massa. Aliquam sem lectus, tristique vitae ultricies finibus, sagittis vitae odio.</p>",
+	"bgcolor" : "blue",
+    "image" : "http://placehold.it/1280x720",
+    "nugget_title" : "Interdum Et Malesuada Fames Ac Ante Ipsum Primis",
+    "nugget_content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas orci ipsum, dictum eget vehicula sed, lobortis ac dui. Pellentesque sapien est, venenatis iaculis ultrices non, facilisis eget massa. Aliquam sem lectus, tristique vitae ultricies finibus, sagittis vitae odio. Nulla viverra, magna sed porta pharetra, lectus lorem egestas neque, nec ultrices est magna id justo. Pellentesque vitae massa ex. Suspendisse facilisis porttitor turpis, in sollicitudin orci consectetur quis. Nam ut volutpat tellus.</p><p>Fusce vitae euismod mi, id maximus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sollicitudin sagittis nunc a convallis. Nunc lobortis, velit a maximus hendrerit, lorem erat imperdiet diam, at gravida eros elit quis tortor. Pellentesque semper dui vitae lectus mattis eleifend. Aliquam id tincidunt tellus. Ut dolor augue, scelerisque non nulla non, fringilla pulvinar urna. Mauris eu mauris vel nunc consequat laoreet. Phasellus sem nulla, sodales et leo et, dapibus sollicitudin libero. </p><p class=\"photo-caption\">PHOTO: Nulla quis gravida leo. Duis sollicitudin eros non cursus efficitur. <i>Captured By: John Doe</i></p>"
+}

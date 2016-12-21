@@ -1,0 +1,49 @@
+<div class="hero--wrapper {{ custom_class }}">
+	<div class="block block--landing-hero">
+		{% block hero_image %}
+			{% if backgrounds|length > 0 %}
+				<div class="hero-background">
+					{% for item in backgrounds %}
+					    <div class="backgrounds" style="background-image: url('{{ item.background_image }}');"></div>
+					{% endfor %}
+				</div>
+			{% endif %}
+		{% endblock %}
+		<div class="content-area">
+			<div class="column-wrapper">
+				<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+					{% block hero_content %}
+						{% include '@molecules/01-text/05-hero-text.twig' with {
+							"alignment" : alignment,
+							"heading" : heading,
+							"link_text" : link_text,
+							"link_href" : link_href,
+							"body" : body
+						} %}
+					{% endblock %}
+				</div>
+			</div>
+		</div>
+		{% block link_to_small %}
+				{% if link_text %}
+					{% include '@molecules/01-text/06-link-with-icon.twig' with {
+							"link_text" : link_text,
+							"link_href" : link_href
+					} %}
+			    {% endif %}
+		{% endblock %}
+	</div>
+</div>
+{% if body %}
+	<div class="content-area xsmall--visible">
+	    <div class="column-wrapper">
+	       <div class="large--hidden medium--hidden small--hidden column-xsmall-12">
+	       		{% block body_text %}
+		   			<div class="header-section section--intro-text">
+					    <p>{{ body|raw }}</p>
+					</div>
+		        {% endblock %}
+			</div>
+	    </div>
+	</div>
+{% endif %}

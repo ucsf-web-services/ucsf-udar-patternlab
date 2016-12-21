@@ -1,0 +1,171 @@
+/*
+ * Type Definition Mixin
+ * Constants : $base--typesize (see global/variables/_typography.scss)
+ * Inputs : Font Size ~ none
+ *          Line Height ~ 1.5
+ * Output : Font Size in rem
+ *          Line Height
+ *
+ */
+
+@mixin type-definition($font-size, $line-height: 1.5) {
+    font-size: ($font-size / $base--typesize) + rem;
+    line-height: $line-height;
+}
+
+
+/**
+ * Heading Definition Mixin
+ * Constants : "Granjon" font
+ * Inputs: Font Size ~ none
+ *         Line Height ~ none
+ *         Font Weight ~ none
+ * Output: Font Size in px
+ *         Line Height
+ *         Font Weight
+ *
+ */
+
+@mixin heading-definition($font-family, $size, $line-height, $font-weight) {
+  font-family: $font-family;
+  font-weight: $font-weight;
+  font-size: $size + px;
+  line-height: $line-height;
+}
+
+
+
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+         -o-border-radius: $radius;
+            border-radius: $radius;
+}
+
+@mixin transition($params){
+    -webkit-transition: $params;
+       -moz-transition: $params;
+        -ms-transition: $params;
+         -o-transition: $params;
+            transition: $params;
+}
+
+@mixin transform($params){
+    -webkit-transform: $params;
+       -moz-transform: $params;
+        -ms-transform: $params;
+         -o-transform: $params;
+            transform: $params;
+}
+
+@mixin animation($params){
+    -webkit-animation: $params;
+       -moz-animation: $params;
+        -ms-animation: $params;
+         -o-animation: $params;
+            animation: $params;
+}
+
+
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+
+@mixin box-sizing($param){
+    -webkit-box-sizing: $param;
+       -moz-box-sizing: $param;
+            box-sizing: $param;
+}
+
+@mixin body-text-definition($size, $font) {
+  // font-size: $size;
+  margin-top: 0px;
+  font-family: $font;
+  @include type-definition($size);
+  * > {
+      // font-size: $size;
+      margin-top: 0px;
+      font-family: $font;
+      @include type-definition($size);
+  }
+}
+
+@mixin text_with_icon_hover_state($color) {
+  .text--with-icon {
+    .fa-angle-right{
+        color: $color;
+    }
+    .icon--visible-hover{
+        display: block;
+    }
+    .icon--angle{
+        @include animation(slideFromLeft 0.4s);
+    }
+    .fa-angle-right{
+        color: $color;
+    }
+  }
+}
+
+
+@mixin impact_story_block( $color ) {
+  .block--impact-stories-panel {
+    .block--item-colored-panel {
+        background-color:  $color ;
+    }
+    &:hover {
+      .block--item-colored-panel {
+        @include text_with_icon_hover_state($color);
+      }
+    }
+  }
+}
+
+@mixin impact_story_pillar_set( $color ) {
+  .block--impact-story-with-image {
+      .block--content {
+          .content-area {
+              background-color: $color;
+          }
+      }
+  }
+  .block--funding-priorities-full {
+      a, span, .detail-label p {
+          color: $color;
+      }
+      span[itemprop] {
+          a {
+            color: $color--black;
+          }
+      }
+      a {
+          &:hover {
+              .fa-angle-right {
+                  color: $color--white;
+              }
+          }
+      }
+      .link--with-icon {
+          .text {
+              &::after {
+                  background-color: $color;
+              }
+          }
+      }
+  }
+  @include impact_story_block($color);
+}

@@ -1,0 +1,39 @@
+{
+	"backgrounds" : [
+	    {
+	    	"background_image" : "/images/MBH_hospital.jpg"
+	    }
+	],
+	"heading" : "Ambassador",
+	"alignment" : "left",
+	"hero_body" : "<p>What happens when you give to something that matters to you? Whether you are volunteering in honor of someone or in gratitude for the special care you received, raising funds for a cause or an important someone, or joining a giving society to network with the community, you get back more than you give.</p>",
+	"link_text" : "",
+	"link_href" : "",
+	"list_title" : "Ways to Get Involved",
+	"ways_to_get_involved_items" : [
+		{
+			"item_image" : "https://placeholdit.imgix.net/~text?txtsize=33&txt=Item%20image%20570%C3%97320&w=570&h=320",
+			"item_body" : "Be a UCSF Ambassador in your community",
+			"link_text" : "JOIN A GIVING SOCIETY",
+			"link_href" : "#"
+		},
+		{
+			"item_image" : "https://placeholdit.imgix.net/~text?txtsize=33&txt=Item%20image%20570%C3%97320&w=570&h=320",
+			"item_body" : "Be a UCSF Ambassador in your community",
+			"link_text" : "JOIN A GIVING SOCIETY",
+			"link_href" : "#"
+		},
+		{
+			"item_image" : "https://placeholdit.imgix.net/~text?txtsize=33&txt=Item%20image%20570%C3%97320&w=570&h=320",
+			"item_body" : "Be a UCSF Ambassador in your community",
+			"link_text" : "JOIN A GIVING SOCIETY",
+			"link_href" : "#"
+		},
+		{
+			"item_image" : "https://placeholdit.imgix.net/~text?txtsize=33&txt=Item%20image%20570%C3%97320&w=570&h=320",
+			"item_body" : "Be a UCSF Ambassador in your community",
+			"link_text" : "JOIN A GIVING SOCIETY",
+			"link_href" : "#"
+		}
+	]
+}

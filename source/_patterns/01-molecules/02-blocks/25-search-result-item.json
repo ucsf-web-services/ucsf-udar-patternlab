@@ -1,0 +1,19 @@
+{
+	"link" : "#",
+	"label" : "Lorep ipsum dolor sit amet",
+	"summary" : "Curabitur vitae lorem vel nisi sollicitudin gravida. Nulla facilisi. Aenean porttitor at dui et posuere. Etiam ultricies ligula et...",
+	"tags" : [
+		{
+			"tag_link" : "#",
+			"tag_label" : "Research"
+		},
+		{
+			"tag_link" : "#",
+			"tag_label" : "Patient Care"
+		},
+		{
+			"tag_link" : "#",
+			"tag_label" : "Education"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+    "items" : [
+        {
+            "color" : "light-blue",
+            "date" : "August 3, 2016",
+            "text" : "UCSF Medical Center Ranked 7th Best Hospital in the U.S. for 2016-2017",
+            "category" : "PATIENT CARE",
+            "link" : "#"
+        },
+        {
+            "color" : "teal",
+            "date" : "August 2, 2016",
+            "text" : "New Understanding of Thirst Emerges from Brain Study",
+            "category" : "RESEARCH",
+            "link" : "#"
+        },
+        {
+            "color" : "light-blue",
+            "date" : "July 28, 2016",
+            "text" : "Bay Area Accountable Care Network Takes Shape",
+            "category" : "PATIENT CARE",
+            "link" : "#"
+        },
+        {
+            "color" : "green",
+            "date" : "July 24, 2016",
+            "text" : "School of Medicine Launches New Curriculum to Train the Doctors of the Future",
+            "category" : "EDUCATION",
+            "link" : "#"
+        }
+    ]
+}

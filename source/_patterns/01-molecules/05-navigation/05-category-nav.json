@@ -1,0 +1,20 @@
+{
+	"terms" : {
+		"research" : {
+			"href" : "#",
+			"term_name" : "Research"
+		},
+		"education" : {
+			"href" : "#",
+			"term_name" : "Education"
+		},
+		"patient-care" : {
+			"href" : "#",
+			"term_name" : "Patient Care"
+		},
+		"news" : {
+			"href" : "#",
+			"term_name" : "News"
+		}
+	}
+}

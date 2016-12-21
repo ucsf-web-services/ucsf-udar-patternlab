@@ -1,0 +1,36 @@
+/*** Page ***/
+
+/*.contents--wrapper {
+	& > div:last-child {
+		padding-bottom: 60px;
+		&.block--homepage-prefooter {
+			padding-bottom: 0px;
+		}
+		&.block--give-block-full-width {
+			padding-bottom: 0px;
+		}
+	}
+}
+
+@media screen and (min-width: $width-small) {
+	.contents--wrapper {
+		& > div:last-child {
+			&.block--homepage-prefooter {
+				padding-bottom: 0px;
+			}
+			&.block--give-block-full-width {
+				padding-bottom: 0px;
+			}
+		}
+	}
+}
+*/
+
+.page-body {
+	margin-bottom: 60px;
+}
+
+.page--content{
+	margin-top: 0px;
+	margin-bottom: 60px;
+}

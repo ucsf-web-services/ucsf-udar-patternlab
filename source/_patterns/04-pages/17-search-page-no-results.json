@@ -1,0 +1,22 @@
+{
+	"title" : "UCSF Giving Search",
+	"search_results" : [],
+	"learn_links" : [
+		{
+			"label" : "Breaking: Weill Institute for Neurosciences Discovers Cure for Autism",
+			"link" :  "#"
+		},
+		{
+			"label" : "UCSF Campaign Tops $11 Billion, Exceeding Fundraising Goal by $8 Billion",
+			"link" :  "#"
+		},
+		{
+			"label" : "Neuroscience Discoveries at UCSF Transforming Research Worldwide",
+			"link" :  "#"
+		},
+		{
+			"label" : "Three UCSF Discovery Fellows Awarded Nobel Prize for Research",
+			"link" :  "#"
+		}
+	]
+}

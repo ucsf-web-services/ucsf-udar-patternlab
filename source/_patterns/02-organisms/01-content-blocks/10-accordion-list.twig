@@ -1,0 +1,21 @@
+<div class="content-area">
+    <div class="column-wrapper">
+    	<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+    		{% block label %}
+				<h3 class="list-title">{{ accordion_list_title }}</h3>
+			{% endblock %}
+			{% block items %}
+				<div class="accordion-list" role="list">
+					{% if accordion_items %}
+						{% for item in accordion_items %}
+						    {% include '@molecules/02-blocks/14-accordion-item.twig' with {
+						    	"accordion_item_header" : item.accordion_item_header,
+						    	"accordion_item_body" : item.accordion_item_body
+						    } %}
+						{% endfor %}
+					{% endif %}
+				</div>
+			{% endblock %}
+		</div>
+	</div>
+</div>

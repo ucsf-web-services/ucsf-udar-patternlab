@@ -1,0 +1,40 @@
+{% if title or department or address is not empty or telephone is not empty or email is not empty %}
+<div class="block block-contact-us">
+	{% block title %}
+	    <h4 class="granjon-heading-text">{{ title }}</h4>
+	{% endblock %}
+	{% block department %}
+	    <h5>{{ department }}</h5>
+	{% endblock %}
+	{% block address %}
+	    {% for item in address %}
+	    <div class="contact-detail-item">
+			<span class="fa fa-map-marker"></span>
+			<span itemprop="address">
+				{{ item.address|raw }}
+			</span>
+		</div>
+		{% endfor %}
+	{% endblock %}
+	{% block telephone %}
+	    {% for item in telephone %}
+	        <div class="contact-detail-item">
+				<span class="fa fa-phone"></span>
+				<span itemprop="telephone">
+					<a href="tel:{{ item.number }}">{{ item.label }}</a>
+				</span>
+			</div>
+	    {% endfor %}
+	{% endblock %}
+	{% block email %}
+		{% for item in email %}
+	    <div class="contact-detail-item">
+			<span class="fa fa-envelope"></span>
+			<span itemprop="email">
+				<a href="mailto:{{ item.email }}">Email Us</a>
+			</span>
+		</div>
+		{% endfor %}
+	{% endblock %}
+</div>
+{% endif %}

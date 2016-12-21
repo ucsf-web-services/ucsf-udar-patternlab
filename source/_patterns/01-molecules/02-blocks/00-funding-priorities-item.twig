@@ -1,0 +1,10 @@
+<a href="{{ link_href }}" class="block--item block--funding-priorities-items {{ classes }}">
+    <div class="block--item-image" style="background-image: url({{ image }});">
+    </div>
+    <div class="block--item-contents">
+        <p class="text">{{ content_text }}</p>
+        {% include '@molecules/01-text/07-text-with-icon.twig' with {
+            "link_text" : link_text,
+        } %}
+    </div>
+</a>

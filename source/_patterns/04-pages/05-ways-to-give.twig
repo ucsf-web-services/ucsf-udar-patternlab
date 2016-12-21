@@ -1,0 +1,33 @@
+{% extends "@pages/_base-page.twig" %}
+
+{% block header %}
+    {% include "@organisms/00-global/header-style-2.twig" %}
+{% endblock %}
+
+{% block content %}
+    <div class="contents--wrapper">
+        {% include "@molecules/02-blocks/13-landing-hero.twig" with {
+            "backgrounds" : backgrounds,
+            "heading" : heading,
+            "body" : hero_body,
+            "alignment" : alignment,
+            "link_text" : link_text,
+            "link_href" : link_href
+        }
+        %}
+
+        {% block page_body %}
+            {% if body %}
+                <div class="content-area page-body">
+                    {{ body|raw }}
+                </div>
+            {% endif %}
+        {% endblock %}
+        {% include "@molecules/02-blocks/07-give-block-full-width.twig" with {
+            "give_to_full" : give_to_full,
+            "give" : give
+        } %}
+    </div>
+{% endblock %}
+
+

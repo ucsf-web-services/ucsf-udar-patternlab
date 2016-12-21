@@ -1,0 +1,40 @@
+/* wrapper ~ fix width */
+
+.content-area{
+    padding-left: $gutter--size + px;
+    padding-right: $gutter--size + px;
+    margin-left: auto;
+    margin-right: auto;
+    &:before, &:after{
+        display: table;
+        content: " ";
+    }
+    &:after{
+        clear: both;
+    }
+    @media all and (min-width:$bp--small-up){
+        width: 750px;
+    }
+    @media all and (min-width:$bp--medium-up){
+        width: 970px;
+    }
+    @media all and (min-width:$bp--large-up){
+        width: 1170px;
+    }
+
+    &.content-area--fluid{
+        width: 100%;
+    }
+}
+
+.column-wrapper{
+    margin-right: -($gutter--size) + px;
+    margin-left: -($gutter--size) + px;
+    &:before, &:after{
+        display: table;
+        content: " ";
+    }
+    &:after{
+        clear: both;
+    }
+}

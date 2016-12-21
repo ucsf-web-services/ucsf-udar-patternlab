@@ -1,0 +1,242 @@
+/*** Forms ***/
+
+fieldset {
+	padding: 0px;
+	margin: 0px;
+	border: 0px solid transparent;
+}
+
+
+input[type="text"], input[type="search"], input[type="email"], input[type="password"], textarea {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#related_articles_all {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 60px;
+	form {
+		position: absolute;
+		left: -99999px;
+	}
+}
+
+.filters{
+	.category-nav{
+		.btn--category{
+			text-transform: uppercase;
+		}
+	}
+}
+
+.contact-form--wrapper {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.contact-form {
+	.form-group {
+		margin-bottom: 20px;
+		label {
+			font-family: $text-body--light;
+			color: $color--oxford-blue;
+			display: block;
+			@include type-definition(20px, 1.6);
+			margin-bottom: 8px;
+			& > span.required {
+				color: $color--orange;
+				font-family: $text-body--bold;
+			}
+		}
+		input[type="text"], input[type="email"], textarea {
+			-webkit-appearance: none;
+		    -moz-appearance: none;
+		    appearance: none;
+			display: block;
+			width: 100%;
+			font-family: $text-body--light;
+			@include type-definition(20px, 1.3);
+			color: $color--black-2;
+			padding: 15px;
+			&:focus {
+				outline: none;
+			}
+		}
+		input[type="text"], input[type="email"] {
+			height: 55px;
+			border: 2px solid $color--dark-gray;
+		}
+		textarea {
+			border: 2px solid $color--dark-gray;
+			resize: none;
+		}
+	}
+	button[type="submit"] {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: $width-small) {
+	.contact-form {
+		button[type="submit"] {
+			width: 269px;
+		}
+	}
+}
+
+
+
+.search-page-form {
+	margin-bottom: 30px;
+	&::before, &::after {
+		content: " ";
+		display: table;
+	}
+	&::after {
+		clear: both;
+	}
+	form[name="search-form"] {
+		.search-form-group {
+			float: left;
+			margin-right: 30px;
+			width: 100%;
+			margin-bottom: 20px;
+			input[type="text"] {
+				padding: 12px 10px;
+				height: 55px;
+				font-family: $text-body--light;
+				@include type-definition(20px, 1.6);
+				color: $color--oxford-blue;
+				width: 100%;
+				outline: none;
+				border: 2px solid $color--dark-gray;
+				&:focus {
+					outline: none;
+				}
+			}
+		}
+		button[type="submit"], .btn {
+			width: 100%;
+			height: 55px;
+			float: left;
+		}
+	}
+}
+
+@media screen and (min-width: $width-small) {
+	.search-page-form {
+		margin-bottom: 30px;
+		form[name="search-form"] {
+			.search-form-group {
+				width: auto;
+				margin-bottom: 20px;
+				input[type="text"] {
+					width: 370px;
+				}
+			}
+			button[type="submit"], .btn {
+				width: 270px;
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: $width-medium) {
+
+	.search-page-form {
+		margin-bottom: 30px;
+		form[name="search-form"] {
+			.search-form-group {
+				margin-bottom: 20px;
+			}
+			button[type="submit"], .btn {
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: $width-large) {
+	.search-page-form {
+		margin-bottom: 30px;
+		form[name="search-form"] {
+			.search-form-group {
+				margin-bottom: 0px;
+			}
+			button[type="submit"], .btn {
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+
+.edit-name, .edit-email {
+    @include type-definition(20px, 1.3);
+    color: $color--black-2;
+}
+
+#message_popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 1100;
+	display: none;
+	&.presentation {
+		display: block;
+	}
+	.popup_body {
+		max-width: 500px;
+		background-color: $color--white;
+		border: solid 1px $color--oxford-blue;
+		padding: 30px;
+		margin: 0 auto;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+		.title-and-content-group--wrapper {
+			margin-bottom: 0px;
+		}
+		button, .btn {
+			width: 105px;
+		}
+	}
+}
+
+@media screen and ( min-width: $width-small ) {
+	#message_popup {
+		.popup_body {
+			width: 500px;
+		}
+	}
+}
+
+@media screen and ( min-width: $width-medium ) {
+	#message_popup {
+		.popup_body {
+			width: 500px;
+		}
+	}
+}
+
+@media screen and ( min-width: $width-large ) {
+	#message_popup {
+		.popup_body {
+			width: 500px;
+		}
+	}
+}

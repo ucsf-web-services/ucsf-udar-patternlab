@@ -1,0 +1,23 @@
+<div class="content-area">
+    <div class="column-wrapper">
+    	<div class="column-large-9 column-large-offset-1 column-medium-10 column-medium-offset-1 column-small-12 column-xsmall-12">
+    		{% block label %}
+				<h3 class="list-title text-align--center">{{ whats_hot_list_title }}</h3>
+			{% endblock %}
+			<div class="whats-hot-list" role="list">
+				{% block items %}
+					{% if whats_hot_items %}
+						{% for item in whats_hot_items %}
+						    {% include '@molecules/02-blocks/15-whats-hot-item.twig' with {
+						    	"wh_item_link" : item.wh_item_link,
+						    	"wh_item_heading" : item.wh_item_heading,
+						    	"wh_item_body" : item.wh_item_body
+						    } %}
+						{% endfor %}
+					{% endif %}
+				{% endblock %}
+			</div>
+		</div>
+	</div>
+</div>
+

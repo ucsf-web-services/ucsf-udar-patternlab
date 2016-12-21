@@ -1,0 +1,9 @@
+<div class="breadcrumb">
+	{% if breadcrumb_links.links %}
+		<ul>
+			{% for link in breadcrumb_links.links %}
+				<li><a href="{{ link.link}} ">{{ link.label }}</a></li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+</div>

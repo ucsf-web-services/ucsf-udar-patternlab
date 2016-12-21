@@ -1,0 +1,10 @@
+{
+	"breadcrumb_links" :  {
+		"links": [
+			{
+				"label" : "PAGE",
+				"link" : "#"
+			}
+		]
+	}
+}

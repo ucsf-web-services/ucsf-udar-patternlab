@@ -1,0 +1,438 @@
+/*
+ * Type Definition Mixin
+ * Constants : $base--typesize (see global/variables/_typography.scss)
+ * Inputs : Font Size ~ none
+ *          Line Height ~ 1.5
+ * Output : Font Size in rem
+ *          Line Height
+ *
+ */
+/**
+ * Heading Definition Mixin
+ * Constants : "Granjon" font
+ * Inputs: Font Size ~ none
+ *         Line Height ~ none
+ *         Font Weight ~ none
+ * Output: Font Size in px
+ *         Line Height
+ *         Font Weight
+ *
+ */
+/* ==========================================================================
+   Breakpoint Configuration
+   docs: https://github.com/Team-Sass/breakpoint/wiki
+   ========================================================================== */
+/*$breakpoint-no-query-fallbacks: false; // Breakpoint will output fallback selectors in this stylesheet
+$breakpoint-to-ems: false; // Breakpoint will convert all media queries to use EMs rather than PX
+*/
+/*sign posts*/
+/*$width-xsmall  : 320px;
+$width-small   : 480px;
+$width-medium  : 768px;
+$width-large   : 1024px;
+$width-xlarge  : 1024px;
+// design max-width
+$width-xxlarge : 1190px; // 1170 size visually without padding
+// Breakpoint variables are prefixed with "$bp--"
+// Mobile-first queries
+$bp--xsmall-up  : $width-xsmall;
+$bp--small-up   : $width-small;
+$bp--medium-up  : $width-medium;
+$bp--large-up   : $width-large;
+$bp--xlarge-up  : $width-xlarge;
+$bp--xxlarge-up : $width-xxlarge;
+// Fenced queries
+//$bp--xsmall    : max-width $width-small - 1;
+//$bp--small     : $width-small $width-medium - 1;
+//$bp--medium    : $width-medium $width-large;
+//$bp--large     : $width-large + 1 $width-xxlarge - 1;
+
+// Mobile-last queries (USE SPARINGLY)
+$bp--small-down: max-width $width-medium - 1;*/
+/* line 43, ../scss/global/variables/_colors.scss */
+.oxford-blue-text {
+  color: #052049;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.oxford-blue-bg {
+  background-color: #052049;
+}
+
+/* line 43, ../scss/global/variables/_colors.scss */
+.light-blue-text {
+  color: #007CBE;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.light-blue-bg {
+  background-color: #007CBE;
+}
+
+/* line 43, ../scss/global/variables/_colors.scss */
+.yellow-green-text {
+  color: #6EA400;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.yellow-green-bg {
+  background-color: #6EA400;
+}
+
+/* line 43, ../scss/global/variables/_colors.scss */
+.teal-text {
+  color: #058488;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.teal-bg {
+  background-color: #058488;
+}
+
+/* line 43, ../scss/global/variables/_colors.scss */
+.orange-text {
+  color: #F26D04;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.orange-bg {
+  background-color: #F26D04;
+}
+
+/* line 43, ../scss/global/variables/_colors.scss */
+.light-gray-text {
+  color: #F1F1F1;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.light-gray-bg {
+  background-color: #F1F1F1;
+}
+
+/* line 43, ../scss/global/variables/_colors.scss */
+.light-gray-2-text {
+  color: #dadee4;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.light-gray-2-bg {
+  background-color: #dadee4;
+}
+
+/* line 43, ../scss/global/variables/_colors.scss */
+.black-text {
+  color: #000000;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.black-bg {
+  background-color: #000000;
+}
+
+/* line 43, ../scss/global/variables/_colors.scss */
+.black-2-text {
+  color: #353a3f;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.black-2-bg {
+  background-color: #353a3f;
+}
+
+/* line 43, ../scss/global/variables/_colors.scss */
+.white-text {
+  color: #FFFFFF;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.white-bg {
+  background-color: #FFFFFF;
+}
+
+/* line 43, ../scss/global/variables/_colors.scss */
+.dark-gray-text {
+  color: #B4B9BF;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.dark-gray-bg {
+  background-color: #B4B9BF;
+}
+
+/* line 43, ../scss/global/variables/_colors.scss */
+.light-gray-3-text {
+  color: #ebf3fa;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.light-gray-3-bg {
+  background-color: #ebf3fa;
+}
+
+/* line 43, ../scss/global/variables/_colors.scss */
+.medium-gray-text {
+  color: #58595b;
+}
+
+/* line 47, ../scss/global/variables/_colors.scss */
+.medium-gray-bg {
+  background-color: #58595b;
+}
+
+/* Body callback fonts */
+/* Header callback fonts */
+/*** HelveticaNeue variants ***/
+@font-face {
+  font-family: 'HelveticaNeue-light';
+  src: url("../fonts/ucsf/2D0D15_0_0.eot");
+  src: url("../fonts/ucsf/2D0D15_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_0_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_0_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_0_0.ttf") format("truetype");
+}
+@font-face {
+  /*font-family: 'HelveticaNeue-roman';*/
+  font-family: 'HelveticaNeue-regular';
+  src: url("../fonts/ucsf/2D0D15_3_0.eot");
+  src: url("../fonts/ucsf/2D0D15_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_3_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_3_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_3_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'HelveticaNeue-medium';
+  src: url("../fonts/ucsf/2D0D15_4_0.eot");
+  src: url("../fonts/ucsf/2D0D15_4_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_4_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_4_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_4_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'HelveticaNeue-bold';
+  src: url("../fonts/ucsf/2D0D15_2_0.eot");
+  src: url("../fonts/ucsf/2D0D15_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_2_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_2_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_2_0.ttf") format("truetype");
+}
+/*** Granjon variants ***/
+@font-face {
+  font-family: 'granjon';
+  src: url("../fonts/ucsf/2D0D15_5_0.eot");
+  src: url("../fonts/ucsf/2D0D15_5_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_5_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_5_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_5_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'granjon-bold';
+  src: url("../fonts/ucsf/2D0D15_9_0.eot");
+  src: url("../fonts/ucsf/2D0D15_9_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ucsf/2D0D15_9_0.woff2") format("woff2"), url("../fonts/ucsf/2D0D15_9_0.woff") format("woff"), url("../fonts/ucsf/2D0D15_9_0.ttf") format("truetype");
+}
+/* From the current pattern library. I'm keeping this here in case we needed this in the future.
+
+$font-headline: $granjon, $header-font;
+$font-headline--bold: $granjon--bold, $header-font;
+$font-headline--italic: $granjon--italic, $header-font;
+
+
+$times-font: $header-font;
+
+$granjon: granjon;
+$granjon--bold: granjon-bold;
+$granjon--italic: granjon-italic;
+
+
+$helvetica--italic: HelveticaNeue-italic;
+
+$helvetica--light--italic: HelveticaNeue-light-italic;
+
+$helvetica--medium--italic: HelveticaNeue-medium-italic;
+
+
+$font-body: $helvetica, $default-font;
+$font-body--italic: $helvetica--italic, $default-font;
+$font-body--light: $helvetica--light, $default-font;
+$font-body--light--italic: $helvetica--light--italic, $default-font;
+$font-body--medium: $helvetica--medium, $default-font;
+$font-body--medium--italic: $helvetica--medium--italic, $default-font;
+$font-body--bold: $helvetica--bold, $default-font;
+
+$font-body-alt: $helvetica, $default-font;
+$font-header: $helvetica, $default-font;
+
+@font-face {
+    font-family: 'HelveticaNeue-light-italic';
+    src: url('../fonts/ucsf/2D0D15_8_0.eot');
+    src: url('../fonts/ucsf/2D0D15_8_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ucsf/2D0D15_8_0.woff2') format('woff2'),
+        url('../fonts/ucsf/2D0D15_8_0.woff') format('woff'),
+        url('../fonts/ucsf/2D0D15_8_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaNeue-italic';
+    src: url('../fonts/ucsf/2D0D15_7_0.eot');
+    src: url('../fonts/ucsf/2D0D15_7_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ucsf/2D0D15_7_0.woff2') format('woff2'),
+        url('../fonts/ucsf/2D0D15_7_0.woff') format('woff'),
+        url('../fonts/ucsf/2D0D15_7_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaNeue-medium-italic';
+    src: url('../fonts/ucsf/2D0D15_1_0.eot');
+    src: url('../fonts/ucsf/2D0D15_1_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ucsf/2D0D15_1_0.woff2') format('woff2'),
+        url('../fonts/ucsf/2D0D15_1_0.woff') format('woff'),
+        url('../fonts/ucsf/2D0D15_1_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'granjon-italic';
+    src: url('../fonts/ucsf/2D0D15_6_0.eot');
+    src: url('../fonts/ucsf/2D0D15_6_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ucsf/2D0D15_6_0.woff2') format('woff2'),
+        url('../fonts/ucsf/2D0D15_6_0.woff') format('woff'),
+        url('../fonts/ucsf/2D0D15_6_0.ttf') format('truetype');
+}
+
+*/
+/*** Styleguide Specific ***/
+/**
+ * This stylesheet is for styles you want to include only when the interface is being viewed within Pattern Lab.
+ * This is helpful for displaying demo styles for grids, animations, color swatches, etc
+ * It's also helpful for overriding context-specific styles like fixed or absolutely positioned elements
+ * These styles will not be your production CSS.
+ */
+/* line 10, ../scss/patternlab/_styleguide-specific.scss */
+.palette {
+  list-style: none;
+  padding: 0;
+}
+/* line 14, ../scss/patternlab/_styleguide-specific.scss */
+.palette div {
+  padding: 5px;
+  font-size: 13px;
+  font-size: 0.92857rem;
+  color: #fff;
+  text-align: center;
+}
+/* line 21, ../scss/patternlab/_styleguide-specific.scss */
+.palette span {
+  display: block;
+}
+/* line 24, ../scss/patternlab/_styleguide-specific.scss */
+.palette .color {
+  height: 125px;
+  padding-top: 1.5em;
+  position: relative;
+}
+/* line 28, ../scss/patternlab/_styleguide-specific.scss */
+.palette .color.dark-text {
+  color: #000000;
+}
+/* line 32, ../scss/patternlab/_styleguide-specific.scss */
+.palette h3 {
+  color: #333;
+  font-size: 11px;
+  font-family: HelveticaNeue-regular, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+}
+/* line 39, ../scss/patternlab/_styleguide-specific.scss */
+.palette .hex, .palette .variable {
+  position: absolute;
+  font-family: HelveticaNeue-bold, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+/* line 43, ../scss/patternlab/_styleguide-specific.scss */
+.palette .hex {
+  top: 5px;
+  right: 10px;
+}
+/* line 47, ../scss/patternlab/_styleguide-specific.scss */
+.palette .variable {
+  bottom: 5px;
+  left: 10px;
+}
+
+/* line 53, ../scss/patternlab/_styleguide-specific.scss */
+#atoms-colors {
+  overflow: hidden;
+}
+/* line 56, ../scss/patternlab/_styleguide-specific.scss */
+#atoms-colors > li {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 0.3em;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* line 62, ../scss/patternlab/_styleguide-specific.scss */
+#atoms-colors > li .sg-swatch {
+  display: block;
+  height: 50px;
+  float: left;
+  width: 33%;
+  outline: dotted 1px gray;
+}
+/* line 69, ../scss/patternlab/_styleguide-specific.scss */
+#atoms-colors > li .sg-info {
+  line-height: 1;
+  float: right;
+  width: 66%;
+}
+/* line 75, ../scss/patternlab/_styleguide-specific.scss */
+#atoms-colors h5.headline {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* line 82, ../scss/patternlab/_styleguide-specific.scss */
+.font-type .font-sample {
+  padding: 20px;
+  width: 50%;
+  float: left;
+}
+
+/* line 91, ../scss/patternlab/_styleguide-specific.scss */
+.button-demo .button-sample {
+  padding: 20px 10px;
+  display: inline-block;
+  width: 100%;
+}
+/* line 95, ../scss/patternlab/_styleguide-specific.scss */
+.button-demo .button-sample.dark {
+  background: #000000;
+}
+
+/* line 104, ../scss/patternlab/_styleguide-specific.scss */
+.grid-sample .content-area .column-wrapper div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px #F1F1F1 solid;
+}
+/* line 108, ../scss/patternlab/_styleguide-specific.scss */
+.grid-sample .content-area .column-wrapper div:nth-child(even) {
+  background-color: #007CBE;
+}
+/* line 111, ../scss/patternlab/_styleguide-specific.scss */
+.grid-sample .content-area .column-wrapper div:nth-child(odd) {
+  background-color: #058488;
+}
+
+/* line 119, ../scss/patternlab/_styleguide-specific.scss */
+.patternLink {
+  color: #052049;
+  text-decoration: none;
+  outline: 0;
+  text-transform: capitalize;
+}
+
+/* line 127, ../scss/patternlab/_styleguide-specific.scss */
+.sg-pattern-example .nav--wrapper {
+  position: relative;
+}
+/* line 130, ../scss/patternlab/_styleguide-specific.scss */
+.sg-pattern-example .btn {
+  width: 270px;
+}
+/* line 133, ../scss/patternlab/_styleguide-specific.scss */
+.sg-pattern-example #message_popup {
+  position: static;
+}
+/* line 135, ../scss/patternlab/_styleguide-specific.scss */
+.sg-pattern-example #message_popup .popup_body {
+  position: static;
+  transform: translateY(0);
+  left: initial;
+  right: initial;
+  top: initial;
+  margin: 0;
+}
+
+/*# sourceMappingURL=patternlab-style.css.map */

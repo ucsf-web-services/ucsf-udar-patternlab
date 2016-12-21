@@ -1,0 +1,61 @@
+{
+	"story_title" : "Cancer Showcase",
+	"intro_text" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum scelerisque diam, et sodales lectus feugiat ac. Nam sit amet lacus quis augue congue blandit. Phasellus vulputate mi vitae nulla dictum vulputate. Vivamus dignissim metus volutpat turpis dapibus, fermentum dictum massa volutpat. Vestibulum sed ultricies mauris. Phasellus quis lacinia dui, eu euismod urna. Donec in finibus metus. Ut condimentum mollis posuere. Sed non dui mattis, tempor felis in, mollis dolor. </p>",
+	"image" : "http://placehold.it/1280x720",
+	"next_event_content" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum scelerisque diam, et sodales lectus feugiat ac. Nam sit amet lacus quis augue congue blandit. Phasellus vulputate mi vitae nulla dictum vulputate. Vivamus dignissim metus volutpat turpis dapibus, fermentum dictum massa volutpat. </p>",
+	"past_events_content" : "<p>Over 500 people attended this standing-room only event raising $22,000 for cancer research and the UCSF research team.</p>",
+	"event_images" : [
+		{
+			"image" : "http://placehold.it/720x360",
+			"caption" : "Proin ultrices molestie ex, id venenatis diam imperdiet eu. Aenean suscipit imperdiet mi, ut pulvinar sapien volutpat ut. Praesent in vehicula nisi."
+		},
+		{
+			"image" : "http://placehold.it/360x570",
+			"caption" : "Proin ultrices molestie ex, id venenatis diam imperdiet eu. Aenean suscipit imperdiet mi, ut pulvinar sapien volutpat ut. Praesent in vehicula nisi."
+		},
+		{
+			"image" : "http://placehold.it/720x360",
+			"caption" : "Proin ultrices molestie ex, id venenatis diam imperdiet eu. Aenean suscipit imperdiet mi, ut pulvinar sapien volutpat ut. Praesent in vehicula nisi."
+		}
+	],
+	"breadcrumb_links" :  {
+		"links": [
+			{
+				"label" : "Events",
+				"link" : "#"
+			},
+			{
+				"label" : "Current Event Page's Title",
+				"link" : "#"
+			}
+		]
+	},
+	"caption" : "PHOTO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at congue magna. Integer velit enim.",
+	"article_carousel_content" : {
+		"items" : [
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Proin ultrices molestie ex, id venenatis diam imperdiet eu. Aenean suscipit imperdiet mi, ut pulvinar sapien volutpat ut. Praesent in vehicula nisi."
+			}
+		]
+	},
+	"give_to_full" : "<h4>Your gift transforms <strong>scientific thinking.</strong></h4>",
+	"give" : {
+		"label" : "Give to UCSF",
+		"link" : "#"
+	},
+	"contact_list_title": "For More Info",
+	"department" : "Meredith Donnelly",
+	"telephone" : [
+		{
+			"number" : "+1-415-476-6922",
+			"label" : "+1 (415) 476-6922"
+		}
+	],
+	"email" : [
+		{
+			"email" : "email@deparment.com"
+		}
+	]
+}

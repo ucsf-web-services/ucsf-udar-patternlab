@@ -1,0 +1,150 @@
+{
+	"title" : "UCSF Giving Search",
+	"search_results" : [
+		{
+			"link" : "#",
+			"label" : "Lorep ipsum dolor sit amet",
+			"summary" : "Curabitur vitae lorem vel nisi sollicitudin gravida. Nulla facilisi. Aenean porttitor at dui et posuere. Etiam ultricies ligula et...",
+			"tags" : [
+				{
+					"tag_link" : "#",
+					"tag_label" : "Research"
+				},
+				{
+					"tag_link" : "#",
+					"tag_label" : "Patient Care"
+				},
+				{
+					"tag_link" : "#",
+					"tag_label" : "Education"
+				}
+			]
+		},
+		{
+			"link" : "#",
+			"label" : "Lorep ipsum dolor sit amet",
+			"summary" : "Curabitur vitae lorem vel nisi sollicitudin gravida. Nulla facilisi. Aenean porttitor at dui et posuere. Etiam ultricies ligula et...",
+			"tags" : [
+				{
+					"tag_link" : "#",
+					"tag_label" : "Education"
+				}
+			]
+		},
+		{
+			"link" : "#",
+			"label" : "Lorep ipsum dolor sit amet",
+			"summary" : "Curabitur vitae lorem vel nisi sollicitudin gravida. Nulla facilisi. Aenean porttitor at dui et posuere. Etiam ultricies ligula et...",
+			"tags" : []
+		},
+		{
+			"link" : "#",
+			"label" : "Lorep ipsum dolor sit amet",
+			"summary" : "Curabitur vitae lorem vel nisi sollicitudin gravida. Nulla facilisi. Aenean porttitor at dui et posuere. Etiam ultricies ligula et...",
+			"tags" : [
+				{
+					"tag_link" : "#",
+					"tag_label" : "Research"
+				},
+				{
+					"tag_link" : "#",
+					"tag_label" : "Patient Care"
+				}
+			]
+		},
+		{
+			"link" : "#",
+			"label" : "Lorep ipsum dolor sit amet",
+			"summary" : "Curabitur vitae lorem vel nisi sollicitudin gravida. Nulla facilisi. Aenean porttitor at dui et posuere. Etiam ultricies ligula et...",
+			"tags" : [
+				{
+					"tag_link" : "#",
+					"tag_label" : "Research"
+				},
+				{
+					"tag_link" : "#",
+					"tag_label" : "Education"
+				}
+			]
+		}
+	],
+    "items" : {
+	    "first" : false,
+	    "previous" : false,
+	    "next" : {
+	        "href" : "#",
+	        "attributes" : "",
+	        "text" : ""
+	    },
+	    "last" : {
+	        "href" : "#",
+	        "attributes" : "",
+	        "text" : ""
+	    },
+	    "pages" : {
+	        "1" : {
+	            "href" : "#",
+	            "attributes" : ""
+	        },
+	        "2" : {
+	            "href" : "#",
+	            "attributes" : ""
+	        },
+	        "3" : {
+	            "href" : "#",
+	            "attributes" : ""
+	        },
+	        "4" : {
+	            "href" : "#",
+	            "attributes" : ""
+	        },
+	        "5" : {
+	            "href" : "#",
+	            "attributes" : ""
+	        },
+	        "6" : {
+	            "href" : "#",
+	            "attributes" : ""
+	        },
+	        "7" : {
+	            "href" : "#",
+	            "attributes" : ""
+	        },
+	        "8" : {
+	            "href" : "#",
+	            "attributes" : ""
+	        },
+	        "9" : {
+	            "href" : "#",
+	            "attributes" : ""
+	        },
+	        "10" : {
+	            "href" : "#",
+	            "attributes" : ""
+	        }
+	    }
+	},
+	"current" : "1",
+	"ellipses" : {
+	    "next" : true,
+	    "previous" : false
+	},
+	"learn_links" : [
+		{
+			"label" : "Breaking: Weill Institute for Neurosciences Discovers Cure for Autism",
+			"link" :  "#"
+		},
+		{
+			"label" : "UCSF Campaign Tops $11 Billion, Exceeding Fundraising Goal by $8 Billion",
+			"link" :  "#"
+		},
+		{
+			"label" : "Neuroscience Discoveries at UCSF Transforming Research Worldwide",
+			"link" :  "#"
+		},
+		{
+			"label" : "Three UCSF Discovery Fellows Awarded Nobel Prize for Research",
+			"link" :  "#"
+		}
+	]
+}

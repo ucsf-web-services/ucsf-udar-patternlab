@@ -1,0 +1,51 @@
+<div class="ways-to-give--wrapper" style="background-image: url('{{ image }}');">
+	<div class="content-area">
+		<div class="column-wrapper">
+			<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+				<div class="ways-to-give-form">
+					{% if content.label %}
+						<h3>{{ content.label }}</h3>
+					{% endif %}
+
+					{% if content.body %}
+						{{ content.body |raw }}
+					{% endif %}
+
+					<form name="ways-to-give" id="give" method="GET" action="{{ post_url }}">
+						<fieldset>
+							<legend class="visually-hidden">Give Form:</legend>
+							<div class="ways-to-give-options--wrapper ">
+								{% block amounts %}
+				                  {% for amount in giving_amounts %}
+				                    <div class="ways-to-give-option" role="button">
+							            <input type="radio" name="{{ choice_name }}" id="{{ choice_name }}_{{ amount.value }}" value="{{ amount.value }}"   {{ amount.is_checked ? 'checked' : '' }}   />
+							            <label for="{{ choice_name }}_{{ amount.value }}">{{ amount.label }}</label>
+							        </div>
+				                  {% endfor %}
+				                {% endblock %}
+
+						        <div class="ways-to-give-option" role="button">
+						        	<label class="visually-hidden" for="give_value_other">Other</label>
+						            <input type="radio" name="give-value" id="give_value_other" value="other" />
+						            <label class="visually-hidden" for="give_input_other">Other Input</label>
+						            <input class="give-value-other-input"type="text" id="give_input_other" name="{{ amount }}" />
+						            <div class="others-dollar-label"><span>$</span> <span class="label-text">Other</span></div>
+						        </div>
+						        <div class="ways-to-give-option submit-btn" role="button">
+						           <button class="btn btn--primary" type="submit">Give where it’s needed most</button>
+						        </div>
+							</div>
+						</fieldset>
+						<div class="submit-button-small-xsmall--medium--wrapper">
+							<button class="btn btn--primary" type="submit">Give where it’s needed most</button>
+						</div>
+					</form>
+					{% include '@molecules/01-text/06-link-with-icon.twig' with {
+			            "link_text" : anchor.text,
+			            "link_href" : anchor.href
+			        } %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

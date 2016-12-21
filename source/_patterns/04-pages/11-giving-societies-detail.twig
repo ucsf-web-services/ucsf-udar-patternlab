@@ -1,0 +1,77 @@
+{% extends "@pages/_article-base-template.twig" %}
+
+{% block top_section %}
+    <div class="content-area">
+        <div class="column-wrapper">
+            <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+                {% block breadcrumbs %}
+                    {% include "@molecules/05-navigation/06-back-to-page.twig" with {
+                        "breadcrumb_link" : breadcrumb_links
+                    } %}
+                {% endblock %}
+            </div>
+            <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+                {% include "@molecules/01-text/00-section-header.twig" with {
+                        "title" : title
+                } %}
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block left_section %}
+    <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+        <div class="column-wrapper">
+	        <div class="column-large-10 column-medium-12 column-small-12 column-xsmall-12">
+	        	{% include "@molecules/01-text/01-section-intro.twig" with {
+		                "intro_text" : intro_text
+		            } %}
+	        </div>
+	        <div class="column-large-10 column-medium-12 column-small-12 column-xsmall-12">
+	        	<div class="block--wysiwyg">
+	        		<p>
+		        		The Chancellor’s Circle has emerged as a dedicated community of annual donors representing the model of philanthropic leadership at UCSF. Today, an impressive number of loyal and generous Chancellor’s Circle members pave the way for the University’s future, and inspire others to take part through service and giving. Their contributions are integral to the university’s sustained excellence in groundbreaking research, outstanding patient care, and top-ranking graduate education programs in the health sciences.
+					</p>
+					<p>
+		        		The Chancellor’s Circle held its first gathering on January, 28, 2016. Chancellor Sam Hawgood, MBBS, welcomed members along with Alan Ashworth, PhD, FRS, President of the UCSF Helen Diller Family Comprehensive Cancer Center. Dr. Ashworth spoke to members about his vision for UCSF’s cancer program.
+					</p>
+					<p>
+		        		Adam Gazzaley, MD, PhD, will speak about his innovative research and its potential implications for treatment of brain health and brain disorders. Discover more about Gazzaley's exciting research by watching <a class="link--orange" href="#">this video.</a>
+		        	</p>
+	        	</div>
+	        </div>
+	        {% block carousel_with_header %}
+	            {% if article_carousel_content %}
+			        <div class="column-large-10 column-medium-12 column-small-12 column-xsmall-12">
+			        	{% include '@organisms/01-content-blocks/20-article-carousel-with-header.twig' with {
+							"header_text" : carousel_header_text,
+			        		"article_carousel_content" : article_carousel_content
+			        	} %}
+			        </div>
+		       	{% endif %}
+	        {% endblock %}
+
+       	</div>
+    </div>
+{% endblock %}
+{% block right_section %}
+    {% block right_sidebar %}
+         <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+         	{% include "@molecules/02-blocks/05-block-contact-us.twig" with {
+	            "title" : contact_us_title,
+	            "department" : department,
+	            "telephone" : telephone,
+	            "email" : email
+	        } %}
+         </div>
+    {% endblock %}
+{% endblock %}
+
+
+{% block bottom_section %}
+    {% include "@molecules/02-blocks/07-give-block-full-width.twig" with {
+            "give_to_full" : give_to_full,
+            "give" : give
+    } %}
+{% endblock %}

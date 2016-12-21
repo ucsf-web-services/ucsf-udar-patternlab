@@ -1,0 +1,14 @@
+<div class="stats-card-list">
+	{% block stats %}
+		{% if stats_card_items %}
+			{% for item in stats_card_items %}
+				<div class="column-large-4 column-medium-6 column-small-4 column-xsmall-12">
+					{% include '@molecules/02-blocks/16-stats-card.twig' with {
+					    "data" : item.data,
+					    "description": item.description
+					} %}
+				</div>
+			{% endfor %}
+		{% endif %}
+	{% endblock%}
+</div>

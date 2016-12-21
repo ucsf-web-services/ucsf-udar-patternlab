@@ -1,0 +1,55 @@
+{
+	"backgrounds" : [
+	  	{
+	  		"background_image" : "http://www.ucsfmissionbayhospitals.org/images/1400x700xroadtomissionbay_home.jpg.pagespeed.ic.XDKSo167PP.jpg"
+	    },
+	    {
+	    	"background_image" : "/images/MBH_hospital.jpg"
+	    },
+	    {
+	    	"background_image" : "/images/home-hero-image.jpg"
+	    }
+	  ],
+	"heading" : "Your giving inspires a world of good health.",
+	"link_text" : "SEE YOUR IMPACT",
+	"link_href" : "#",
+	"alignment" : "right",
+	"block_title": "Explore Priorities & Campaigns",
+	"funding_priorities" : {
+	    "items" : [
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 1",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 2",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 3",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 4",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      }
+	    ]
+	},
+	"content" : {
+	    "label" : "Give Where it’s Needed Most",
+	    "body" : "<p>Everyday, UCSF faces big challenges. Your gifts make it possible for us to act quickly or conduct research and nimbly develop innovative science. From responding to disease outbreaks to exploring a cure for cancer, give a gift where it is needed today.</p>"
+	},
+	"image" : "/images/MBH_hospital_cropped.jpg",
+	"anchor" : {
+		"text" : "EXPLORE OTHER WAYS OF GIVING",
+	    "href" : "http://www.example.com/working"
+	}
+}

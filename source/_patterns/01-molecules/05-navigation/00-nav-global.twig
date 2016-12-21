@@ -1,0 +1,55 @@
+<nav class="nav--wrapper">
+	<div class="nav-global--wrapper">
+		<div class="content-area">
+			<div class="nav-global">
+				<div class="nav-brand">
+					<a href="{{ global_nav_header_link }}">
+						<img class="nav-logo" src="{{ header_logos.UCSF_logowhite_small}}" alt="UCSF Logo White Small">
+						<span class="nav-title">University of California San Francisco</span>
+					</a>
+				</div>
+				{% if global_header_links %}
+					<ul class="nav-link-list">
+					{% for item in global_header_links.links %}
+						<li><a href="{{ item.link }}">{{ item.label }}</a></li>
+					{% endfor %}
+						<li>
+							<div class="search-box--wrapper">
+								<form action="#" method="GET" name="form-search" id="form-search">
+									<fieldset>
+										<legend class="visually-hidden">
+											Search
+										</legend>
+										<div class="search-field--wrapper">
+											<span class="placeholder">Search giving.ucsf.edu</span>
+											<input class="input-text" type="text" name="search" id="searchDesktop">
+											<button id="searchDesktopSubmit" type="submit" class="fa fa-search search-icon"></button>
+											<label for="searchDesktop" class="visually-hidden">Search giving.ucsf.edu</label>
+											<a class="hidden anchor" name="search-button" id="search-button">Go</a>
+										</div>
+										<div class="search-advanced-form">
+											<div class="radio-circle">
+												<input type="radio" name="search-type" id="search-type-ucsf" value="all">
+												<div class="radio-ui"><span class="fa fa-check checkmark"></span></div>
+											</div>
+											<label for="search-type-ucsf">All UCSF</label>
+											<div class="radio-circle">
+												<input type="radio" name="search-type" id="search-type-give" value="give">
+												<div class="radio-ui"><span class="fa fa-check checkmark"></span></div>
+											</div>
+											<label for="search-type-give">giving.ucsf.edu</label>
+											<div class="advanced-form-close-button"><img src="{{ nav_close_icon }}" alt="Close Icon"></div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+							<a class="search-advanced-form-toggle">
+								ADVANCED
+							</a>
+						</li>
+					</ul>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</nav>

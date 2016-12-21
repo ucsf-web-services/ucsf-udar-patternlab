@@ -1,0 +1,23 @@
+{
+	"title" : "Privacy Policy",
+	"page_content" : "<div class=\"title-and-content-group--wrapper\"><h3>Collection of Personal Information</h3><p>University of California, San Francisco uses this website to collect personal contact information and credit card information. This information is used primarily to process donations to the UCSF Foundation. Individuals who wish to use methods other than online enrollment may submit requests by email us at giving@support.ucsf.edu or U.S. mail addressed to UCSF Foundation Box 45339, San Francisco, CA 94145-0339.</p></div><div class=\"title-and-content-group--wrapper\"><h3>Receiving Communications</h3><p>In addition, your information is used to create a record about you in our donor database, or to update your existing record. Your credit card information is not stored in this record. Cookies are used to enhance the experience of the user.</p><p>Your personal information may be used for fundraising purposes or to provide you with information about UCSF Alumni Association activities. Your information may also be shared with other UCSF offices and departments for University-related activities. Your personally identifiable information will not be distributed for third-party fundraising.</p><p>You may request to opt-out of receiving any or all of these communications by e-mailing us at giving@support.ucsf.edu. When contacting us, please specify which types of communication (e-mail, regular mail, telephone calls, etc.) you no longer wish to receive. UCSF reserves the right to change this policy or University policies at any time without notice. You should visit this page periodically to review the current policy.</p></div><div class=\"title-and-content-group--wrapper\"><h3>Questions</h3><p>If you have questions about this privacy policy, or about how to review, modify or delete previously provided personal information, or if you believe that your information has not been treated in accordance with this policy, please contact us via e-mail at giving@support.ucsf.edu. You may also contact us toll-free within the United States at (877) 499-8273.</p></div>",
+	"bgcolor" : "blue",
+	"contact_us_title": "Contact Us",
+	"department" : "",
+	"address" : [
+		{
+		"address" : "UCSF Box 45339,<br> San Francisco, CA<br> 94145-0339"
+		}
+	],
+	"telephone" : [
+		{
+			"number" : "+1-415-476-6922",
+			"label" : "+1 (415) 476-6922"
+		}
+	],
+	"email" : [
+		{
+			"email" : "email@deparment.com"
+		}
+	]
+ }

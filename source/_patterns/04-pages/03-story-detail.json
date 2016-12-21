@@ -1,0 +1,97 @@
+{
+	"story_title" : "Lorep Ipsum Dolor Sit Amet.",
+	"image" : "http://placehold.it/1280x720",
+	"breadcrumb_links" :  {
+		"links": [
+			{
+				"label" : "Home",
+				"link" : "#"
+			},
+			{
+				"label" : "Current Page's Title",
+				"link" : "#"
+			}
+		]
+	},
+	"fund_intro_text" : "<p>Nullizzle shizznit velizzle, hizzle, suscipit own yo', gravida vizzle, arcu.</p>",
+	"quote" : "<p>This gift will be a game-changer in our ability to recruit and support outstanding scientists in what is an extremely challenging funding climate… This also gives scientists the freedom to pursue research not only to unlock biological secrets, but to change the way that society views mental illness.</p>",
+	"from" : "<strong>- MATTHEW STATE</strong> CHILD PSYCHIATRIST ",
+	"caption" : "PHOTO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at congue magna. Integer velit enim.",
+	"article_carousel_content" : {
+		"items" : [
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Proin ultrices molestie ex, id venenatis diam imperdiet eu. Aenean suscipit imperdiet mi, ut pulvinar sapien volutpat ut. Praesent in vehicula nisi."
+			},
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Integer eget nunc nec nulla pulvinar finibus. Integer ac erat tristique, faucibus turpis vitae, viverra lacus. Nam mauris enim, porttitor nec dui sit amet, fermentum imperdiet mauris."
+			},
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue a tortor a dignissim. Cras auctor interdum justo, eget efficitur lectus posuere non."
+			},
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Integer eget nunc nec nulla pulvinar finibus. Integer ac erat tristique, faucibus turpis vitae, viverra lacus. Nam mauris enim, porttitor nec dui sit amet, fermentum imperdiet mauris."
+			}
+		]
+	},
+	"give_to_full" : "<h4><strong>Lorep?</strong> Dolor sit ameti.</h4>",
+	"give" : {
+		"label" : "Give to UCSF",
+		"link" : "#"
+	},
+	"items" : [
+        {
+            "color" : "light-blue",
+            "date" : "August 3, 2016",
+            "text" : "UCSF Medical Center Ranked 7th Best Hospital in the U.S. for 2016-2017",
+            "category" : "PATIENT CARE",
+            "link" : "#"
+        },
+        {
+            "color" : "teal",
+            "date" : "August 2, 2016",
+            "text" : "New Understanding of Thirst Emerges from Brain Study",
+            "category" : "RESEARCH",
+            "link" : "#"
+        },
+        {
+            "color" : "light-blue",
+            "date" : "July 28, 2016",
+            "text" : "Bay Area Accountable Care Network Takes Shape",
+            "category" : "PATIENT CARE",
+            "link" : "#"
+        },
+        {
+            "color" : "green",
+            "date" : "July 24, 2016",
+            "text" : "School of Medicine Launches New Curriculum to Train the Doctors of the Future",
+            "category" : "EDUCATION",
+            "link" : "#"
+        }
+    ],
+    "learn_links" : [
+		{
+			"label" : "Breaking: Weill Institute for Neurosciences Discovers Cure for Autism",
+			"link" :  "#"
+		},
+		{
+			"label" : "UCSF Campaign Tops $11 Billion, Exceeding Fundraising Goal by $8 Billion",
+			"link" :  "#"
+		},
+		{
+			"label" : "Neuroscience Discoveries at UCSF Transforming Research Worldwide",
+			"link" :  "#"
+		},
+		{
+			"label" : "Three UCSF Discovery Fellows Awarded Nobel Prize for Research",
+			"link" :  "#"
+		}
+	]
+}

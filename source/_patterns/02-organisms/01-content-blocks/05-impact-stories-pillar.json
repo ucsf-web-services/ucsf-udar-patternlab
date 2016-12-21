@@ -1,0 +1,26 @@
+{
+    "color" : "teal",
+    "hero_image" : "/images/MBH_hospital.jpg",
+    "story_title" : "Research is at the Heart of What We Do",
+    "copy_text" : "UC San Francisco is leading revolutions in health – and those revolutions often start in the lab. From basic science to clinical research, we are constantly pushing scientific boundaries and earning worldwide recognition for our discoveries. UC San Francisco is leading revolutions in health – and those revolutions often start in the lab. From basic science to clinical research, we are constantly pushing scientific boundaries and earning worldwide recognition for our discoveries. Pellentesque id risus in purus aliquet dignissim. Mauris ullamcorper nulla et magna iaculis, ut tempor lorem pellentesque.",
+    "link" : {
+        "label": "SUPPORT RESEARCH",
+        "href" : "#"
+    },
+    "stats" : [
+        {
+          "value" : "#12",
+          "text" : "Public recipient of research funing from the National Institutes of Health"
+        },
+        {
+          "value" : "100+",
+          "text" : "Biotech startup companies spun off from UCSF discoveries"
+        }
+    ],
+    "story" :{
+        "title" : "Bluestone to Head Parker Cancer Immunotherapy Institute",
+        "sub_title" : "The Parker Foundation with a $250 million grant has launched the Parker Institute for Cancer Immunotherapy.",
+        "hero_image" : "/images/MBH_hospital.jpg",
+        "link" : "#"
+    }   
+}

@@ -1,0 +1,436 @@
+/*** Text ***/
+.text-body{
+    font-family: $text-body--regular;
+
+    @include type-definition(15px, 1.5);
+
+    &.text-body--light{
+        font-family: $text-body--light;
+    }
+    &.text-body--medium{
+        font-family: $text-body--medium;
+    }
+    &.text-body--bold{
+        font-family: $text-body--bold;
+    }
+}
+
+.heading{
+    font-family: $text-headline;
+}
+
+p{
+    font-family: $text-body--regular;
+    @include type-definition($base--typesize);
+}
+
+b, strong{
+    font-family: $text-body--bold;
+    font-weight: normal;
+}
+
+h1 {
+    @include heading-definition($text-headline, 40, 45px, normal);
+    color: $color--oxford-blue;
+}
+
+h2 {
+    @include heading-definition($text-headline, 45, 45px, normal);
+    color: $color--oxford-blue;
+}
+
+h3 {
+    @include heading-definition($text-headline, 30, 42px, normal);
+    color: $color--oxford-blue;
+    margin-top: 0px;
+}
+
+h4 {
+    @include heading-definition($text-body--medium, 22, 30px, normal);
+    color: $color--oxford-blue;
+    margin-bottom: 10px;
+}
+
+h5 {
+    @include heading-definition($text-body--light, 20, 25px, normal);
+
+}
+
+@media screen and (min-width: $bp--small-up) {
+    h1 {
+        @include heading-definition($text-headline, 60, 65px, normal);
+    }
+
+    h2 {
+        @include heading-definition($text-headline, 45, 45px, normal);
+    }
+
+    h3 {
+        @include heading-definition($text-headline, 36, 42px, normal);
+    }
+
+    h4 {
+        @include heading-definition($text-body--medium, 26, 30px, normal);
+        margin-bottom: 15px;
+    }
+}
+
+
+.granjon-heading-text {
+    font-family: $text-headline;
+}
+
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+small {
+    font-size: 80%;
+}
+
+blockquote{
+    padding: 30px;
+    background-color: $color--light-gray-3;
+    text-align: justify;
+    &, & p{
+        font-family: $text-headline;
+        @include type-definition(24px, 1.33);
+    }
+    p{
+        margin: 0;
+        &:before, &:after{
+            font-family: $text-headline;
+            @include type-definition(60px, 0.53);
+            color: $color--light-blue;
+            top: 15px;
+            position: relative;
+        }
+        &:before{
+            content: "\201C";
+        }
+        &:after{
+            content: "\201D";
+        }
+    }
+
+}
+
+address, details {
+    font-style: normal;
+    font-family: $text-body--light;
+    & > b, & > strong {
+        font-family: $text-body--medium;
+    }
+    &.content-padded {
+        padding-left: 30px;
+    }
+}
+
+a {
+    &.link--light-blue {
+        color: $color--light-blue;
+        &:hover {
+            color: $color--light-blue;
+        }
+    }
+    &.link--orange {
+        color: $color--orange;
+        &:hover {
+            color: $color--orange;
+
+        }
+
+    }
+    &.link--green {
+        color: $color--yellow-green;
+        &:hover {
+            color: $color--yellow-green;
+
+        }
+
+    }
+    &.link--teal {
+        color: $color--teal;
+        &:hover {
+            color: $color--teal;
+
+        }
+
+    }
+    &.link--dark-blue {
+        color: $color--oxford-blue;
+        &:hover {
+            color: $color--oxford-blue;
+
+        }
+
+    }
+}
+
+
+// Text alignments
+
+$alignments : left center right justify;
+
+@each $alignment in $alignments{
+    .text-align--#{$alignment}{
+        text-align: #{$alignment};
+    }
+}
+
+.header-section{
+    margin-bottom: 30px;
+    &.section--title{
+        color: $color--oxford-blue;
+        margin-top: 25px;
+        .heading{
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        &.events--extend {
+            margin-top: 0px;
+        }
+    }
+    &.story {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        h3 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+    &.section--intro-text{
+        color: $color--black-2;
+        margin-bottom: 40px;
+        p{
+            font-family: $text-body--light;
+            @include type-definition(20px, 1.3);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media all and (max-width: $bp--xsmall-max){
+
+}
+
+@media all and (min-width: $bp--small-up){
+    .header-section{
+        margin-bottom: 15px;
+        &.story {
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+        h3 {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+@media all and (min-width: $bp--medium-up){
+    .header-section{
+        &.story {
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.content-padded {
+    padding-left: 30px;
+}
+
+.address_account_detail {
+    b, strong {
+        font-family: $text-body--medium;
+    }
+}
+
+.body-text-light-18 {
+    @include body-text-definition(18px, $text-body--light);
+}
+
+.body-text-light-20 {
+    @include body-text-definition(20px, $text-body--light);
+}
+
+.body-text-regular-18 {
+    @include body-text-definition(18px, $text-body--regular);
+}
+
+.body-text-regular-20 {
+    @include body-text-definition(20px, $text-body--regular);
+}
+
+.body-text-medium-18 {
+    @include body-text-definition(18px, $text-body--medium);
+}
+
+.body-text-medium-20 {
+    @include body-text-definition(20px, $text-body--medium);
+}
+
+.padded-paragraph-group-wrapper {
+    padding-left: 40px;
+    display: block;
+    margin-bottom: 10px;
+    p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.fund-intro{
+    p{
+        font-family: $text-body--light;
+        font-size: 22px;
+        line-height: 1.36;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: $width-medium) {
+    .fund-intro {
+        p {
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.paragraph-with-icon {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    &::before, &::after {
+        content: ' ';
+        display: table;
+    }
+    &::after {
+        clear: both;
+    }
+    .icon {
+        display: inline-block;
+        color: $color--light-blue;
+        margin-right: 10px;
+        float: left;
+        vertical-align: middle;
+        padding-top: 2px;
+        i, span, em {
+            font-size: 24px;
+            display: inline-block;
+            vertical-align: middle;
+            width: 30px;
+        }
+    }
+    p {
+        display: inline-block;
+        float: left;
+        margin: 0px;
+        vertical-align: middle;
+
+    }
+}
+
+h3 {
+    &.giving-societies-detail-heading {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    h3 {
+        &.giving-societies-detail-heading {
+            margin-top: 30px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+
+/*** Page ***/
+p {
+    &.text--with-icon {
+        @include type-definition(16px, 1.125);
+        color: $color--oxford-blue;
+        text-transform: uppercase;
+        font-family: $text-body--medium;
+        position: relative;
+        text-decoration: none;
+        margin: 0px;
+        .content-text {
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -1px;
+                left: 0px;
+                width: 100%;
+                height: 0px;
+                background-color: $color--white;
+            }
+        }
+        .text--icon {
+            color: $color--light-blue;
+            height: 26px;
+            width: 23px;
+            position: relative;
+            top: -1px;
+            margin-left: 5px;
+            overflow: hidden;
+            .icon--visible-hover{ display: none; }
+            .icon--circle{ @include type-definition(25px, 1); }
+            .icon--angle{ @include type-definition(19px, 1.27); }
+        }
+    }
+}
+
+a {
+    &:hover {
+        .text--with-icon {
+            .content-text {
+                text-decoration: underline;
+            }
+            .text--icon {
+                .icon--visible-hover{
+                    display: block;
+                }
+                .icon--angle{
+                    @include animation(slideFromLeft 0.4s);
+                    color: $color--white;
+                }
+                .text {
+                    &::after {
+                        height: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.error-message-content {
+    margin-bottom: 70px;
+    h3 {
+        margin-bottom: 20px;
+    }
+    p {
+        margin-bottom: 5px;
+    }
+}
+
+.error-suggestion {
+    margin-bottom: 60px;
+}
+
+.search--body {
+    h2 {
+        display: none;
+    }
+}

@@ -1,0 +1,28 @@
+/******************************************************************
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens.
+All styles that are imported here will be compiled into css/style.css
+******************************************************************/
+
+$browser-minimum-versions: (
+  "ie": null,
+  "android": "4",
+  "chrome": "31",
+  "safari": "5",
+  "firefox": "25",
+  "ios-safari": "6.0-6.1",
+  "android-chrome": "0"
+);
+
+@import "../bower_components/font-awesome/scss/font-awesome.scss";
+
+@import
+  "global/_reset",
+  "global/mixins/_mixins",
+  "global/functions/_functions",
+  "global/variables/_index",
+  "global/extends/_index",
+  "base/**/*",
+  "layout/**/*",
+  "components/_index";

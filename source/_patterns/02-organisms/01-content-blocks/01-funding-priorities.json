@@ -1,0 +1,55 @@
+{
+	"block_title": "Explore Priorities & Campaigns",
+	"funding_priorities" : {
+	    "items" : [
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 1",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 2",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 3",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 4",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 5",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 6",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 7",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 8",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      }
+	    ]
+	}
+}

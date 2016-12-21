@@ -1,0 +1,30 @@
+{% extends "@pages/_base-page.twig" %}
+
+{% block content %}
+    <div class="contents--wrapper">
+        <div class="content-area">
+            <div class="column-wrapper">
+                <div class="column-large-8 column-medium-8 column-small-12 column-xsmall-12">
+                    {% include "@molecules/01-text/00-section-header.twig" with {
+                        "title" : title
+                    } %}
+                    {% include "@molecules/01-text/01-section-intro.twig" with {
+                        "intro_text" : intro_text
+                    } %}
+                </div>
+            </div>
+        </div>
+         <div class="impact-stories-wrapper giving-societies--extend">
+            {% for item in giving_pillar_items %}
+                {% include "@organisms/01-content-blocks/15-giving-societies-pillar.twig" with {
+                    "hero_image" : item.hero_image,
+                    "story_title" : item.story_title,
+                    "copy_text" : item.copy_text,
+                    "link" : item.link,
+                    "contact_details" : item.contact_details,
+                    "story" : item.story
+                } %}
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

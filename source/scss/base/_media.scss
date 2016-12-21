@@ -1,0 +1,75 @@
+/*** Media ***/
+
+figure {
+	margin: 0px;
+}
+
+
+figure, .embedded-entity {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &:focus {
+        outline: none;
+    }
+    article {
+       img {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin: 0px;
+		position: relative;
+       }
+    }
+    figcaption {
+        display: block;
+        background-color: $color--light-gray;
+        color: $color--black;
+        padding: 15px 20px;
+        margin: 0px;
+        position: relative;
+        z-index: 10;
+        @include transition(all 250ms linear);
+        strong, b {
+        	font-family: $text-body--bold;
+        }
+        p {
+            margin: 0px;
+            margin-bottom: 1em;
+        }
+    }
+}
+
+@media screen and (min-width: $width-small) {
+    figure, .embedded-entity {
+        figcaption {
+            margin-top: -30px;
+            margin-left: 24px;
+            margin-right: 24px;
+            padding: 20px 30px 20px;
+        }
+    }
+}
+
+
+@media screen and (min-width: $width-medium) {
+    figure, .embedded-entity {
+        &:last-child {
+            margin-bottom: 0px;
+        }
+        figcaption {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+    }
+}
+
+@media screen and (min-width: $width-large) {
+    figure, .embedded-entity {
+        figcaption {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+    }
+}

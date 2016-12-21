@@ -1,0 +1,92 @@
+{% extends "@pages/_article-base-template.twig" %}
+
+{% block top_section %}
+    <div class="content-area">
+        <div class="column-wrapper">
+            <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+                {% block breadcrumbs %}
+                    {% include "@molecules/05-navigation/03-breadcrumb.twig" %}
+                {% endblock %}
+            </div>
+            <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+                {% block title %}
+                    {% include "@molecules/01-text/04-story-heading.twig" %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+    {% block hero_image %}
+        {% include "@molecules/02-blocks/08-article-hero-no-text.twig" %}
+    {% endblock %}
+    <div class="photo--caption-full large--hidden medium--hidden">
+        <div class="content-area">
+            <div class="column-wrapper xsmall--visible">
+                {% block hero_image_caption %}
+                    {% include "@molecules/01-text/02-photo-caption.twig" %}
+                {% endblock %}
+            </div>
+             <div class="column-wrapper small--visible">
+                <div class="column-small-12">
+                    {% block hero_image_caption_small %}
+                        {% include "@molecules/01-text/02-photo-caption.twig" %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block left_section %}
+ <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+    <div class="column-wrapper">
+        <div class="column-large-10 column-medium-12 column-small-12 column-xsmall-12">
+            {% include "@molecules/02-blocks/09-block-share-icons.twig" %}
+        </div>
+        <div class="column-large-10 column-medium-12 column-small-12 column-xsmall-12">
+            {% include "@molecules/01-text/03-fund-intro.twig" %}
+        </div>
+        <div class="column-large-10 column-medium-12 column-small-12 column-xsmall-12">
+            {% block body_content %}
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at congue magna. Integer velit enim, dignissim sit amet fermentum a, rutrum in elit. Quisque sit amet maximus ipsum. Maecenas in nisl non mauris porta maximus ut nec lectus. Nulla at justo id erat consequat mollis nec at nunc. Nam nisl erat, mattis in libero nec, imperdiet venenatis augue. Quisque condimentum nunc sed turpis elementum vulputate. Fusce maximus maximus risus.
+                </p>
+                <p>
+                    Aliquam condimentum nibh odio, id sollicitudin mauris posuere in. Morbi arcu nunc, laoreet eget magna eu, sodales aliquet ante. Cras metus ipsum, maximus ut pharetra a, ornare et purus. Curabitur a sagittis sapien. Aliquam sit amet convallis lacus. Phasellus risus est, luctus at dui non, pretium interdum enim.
+                </p>
+                {% include "@molecules/02-blocks/10-block-quote-custom.twig" %}
+                <p>
+                    Mauris at arcu ut nisl hendrerit eleifend nec ut metus. Curabitur laoreet risus nec quam commodo malesuada. Morbi vel tincidunt ante, non eleifend ante. Mauris tortor nunc, tincidunt at augue ut, luctus faucibus sem. Suspendisse dui est, interdum a nisl sed, iaculis varius augue. Duis pharetra non nibh eu facilisis. Pellentesque pulvinar metus blandit dolor bibendum, eu aliquam nisl mattis. Sed efficitur, dui vitae pharetra porta, odio ex pretium diam, eu sagittis ex orci mollis ligula.
+                </p>
+                <p>
+                    In hac habitasse platea dictumst. Curabitur consectetur nibh in ipsum finibus ornare. Duis vehicula, est sed consequat interdum, enim ante ultricies lacus, nec convallis mi leo vel eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas gravida augue eu tellus finibus egestas. Nunc ultricies quis enim vel condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+                <p>
+                    In hac habitasse platea dictumst. Curabitur consectetur nibh in ipsum finibus ornare. Duis vehicula, est sed consequat interdum, enim ante ultricies lacus, nec convallis mi leo vel eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas gravida augue eu tellus finibus egestas. Nunc ultricies quis enim vel condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+            {% endblock %}
+        </div>
+        <div class="column-large-10 column-medium-12 column-small-12 column-xsmall-12">
+            {% block gallery %}
+                {% include "@molecules/02-blocks/11-article-image-carousel.twig" %}
+            {% endblock%}
+        </div>
+    </div>
+ </div>
+{% endblock %}
+
+{% block right_section %}
+    <div class="column-large-12 column-medium-12 small--hidden xsmall--hidden photo--caption-side">
+        {{ block('hero_image_caption') }}
+    </div>
+    {% block right_sidebar %}
+    <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+        {% include "@organisms/01-content-blocks/07-related-articles.twig" %}
+        {% include "@organisms/01-content-blocks/08-learn-more.twig" %}
+    </div>
+    {% endblock %}
+{% endblock %}
+
+{% block bottom_section %}
+    {% include "@molecules/02-blocks/07-give-block-full-width.twig" %}
+{% endblock %}
+

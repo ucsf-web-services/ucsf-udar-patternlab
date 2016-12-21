@@ -1,0 +1,38 @@
+.alert{
+    padding-bottom: 19px;
+    padding-top: 19px;
+    text-align: center;
+    display: block;
+    @include type-definition(18px, 1.2);
+    @include transition(all 250ms ease-in-out);
+    div {
+        text-decoration: none;
+    }
+    &.alert--info{
+        background-color: $color--orange;
+        color: $color--white;
+        &:hover {
+            background-color: $color--orange-2;
+        }
+    }
+    &:hover {
+       div {
+         text-decoration: underline;
+       }
+    }
+}
+
+@media all and (max-width: $bp--xsmall-max){
+    .alert{
+        padding: 20px 54px;
+    }
+}
+
+@media all and (min-width: $bp--small-up){
+    .alert{
+        padding-bottom: 19px;
+        padding-top: 19px;
+        height: 60px;
+    }
+
+}

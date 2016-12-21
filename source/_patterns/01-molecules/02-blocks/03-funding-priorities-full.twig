@@ -1,0 +1,68 @@
+<div class="block block--funding-priorities-full background-color--{{ color }}">
+    <div class="content-area">
+        <div class="column-wrapper">
+            <div class="column-large-12">
+                <div class="column-large-8 column-medium-8 column-small-8 column-xsmall-12">
+                    <div class="block--content-text">
+                        {{ body_text |raw }}
+                    </div>
+                </div>
+                <div class="column-large-offset-1 column-medium--offset-1 column-small-offset-1 column-large-3 column-medium-3 column-small-3 column-xsmall-12">
+                    {% if stats %}
+                        <div class="block--content-stats">
+                            {% for item in stats %}
+                                <div class="stats-items">
+                                    <span class="stats-value">{{ item.value }}</span>
+                                    <p class="stats-text">{{ item.text }}</p>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                    {% if contact_details %}
+                        <div class="block--contact-details">
+                            <p>{{ contact_details.contact_body }}</p>
+                            {% if contact_details.contact_phone_number|length > 0 %}
+                                <div class="detail-label small--visible">
+                                    {% if contact_details.contact_phone_number|length == 1 %}
+                                        <p>Phone number</p>
+                                    {% else %}
+                                        <p>Phone numbers</p>
+                                    {% endif %}
+                                </div>
+                                <div class="detail--wrapper phone_numbers_list" role="list">
+                                    {% for item in contact_details.contact_phone_number %}
+                                        <div class="contact-detail-item phone_number">
+                                            <span class="fa fa-phone"></span>
+                                            <span itemprop="telephone">
+                                                <a href="tel:{{ item.number }}">{{ item.label }}</a>
+                                            </span>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                            {% if contact_details.contact_email %}
+                                <div class="detail-label small--visible">
+                                    <p>Email</p>
+                                </div>
+                                <div class="detail--wrapper email_list" role="list">
+                                    {% for item in contact_details.contact_email %}
+                                        <div class="contact-detail-item">
+                                            <span class="fa fa-envelope"></span>
+                                            <span itemprop="email">
+                                                <a href="mailto:{{ item.email }}">Email Us</a>
+                                            </span>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% include '@molecules/01-text/06-link-with-icon.twig' with {
+            "link_text" : link_label,
+            "link_href" : link_href
+        } %}
+    </div>
+</div>

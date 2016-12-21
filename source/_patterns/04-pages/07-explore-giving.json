@@ -1,0 +1,99 @@
+{
+	"background_image" : "/images/MBH_hospital.jpg",
+	"backgrounds" : [
+		{
+			"background_image" : "/images/MBH_hospital.jpg"
+		}
+	],
+	"heading" : "Giving Opportunities",
+	"alignment" : "left",
+	"hero_body" : "<p>When you give to UCSF, you become something indispensable in our quest to provide great medicine: You become our partner -- in every discovery, in every classroom or research lab, in every room where a doctor greets a patient, and in the care and hope we bring to people across the globe.</p>",
+	"link_text" : "",
+	"link_href" : "",
+	"block_title": "Priority Funds",
+	"funding_priorities" : {
+	    "items" : [
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "CANCER",
+	        "link_href" : "#",
+	        "content_text" : "Transform cure research for the world’s deadliest disease"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "CHILDREN'S HEALTH",
+	        "link_href" : "#",
+	        "content_text" : "Give a gift to the world’s future promise. Because caring is healing."
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "STUDENT AND FACULTY SUPPORT",
+	        "link_href" : "#",
+	        "content_text" : "Shape the next generation of leaders in science, medicine, and health"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "NEUROSCIENCE 1",
+	        "link_href" : "#",
+	        "content_text" : "Revolutionize research and discovery for the most serious psychiatric illnesses"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "CANCER 1",
+	        "link_href" : "#",
+	        "content_text" : "Transform cure research for the world’s deadliest disease"
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "CHILDREN'S HEALTH 1",
+	        "link_href" : "#",
+	        "content_text" : "Give a gift to the world’s future promise. Because caring is healing."
+	      },
+	      {
+	        "image" : "https://placeholdit.imgix.net/~text?txtsize=19&txt=270%C3%97200&w=270&h=200",
+	        "link_text" : "STUDENT AND FACULTY SUPPORT 1",
+	        "link_href" : "#",
+	        "content_text" : "Shape the next generation of leaders in science, medicine, and health"
+	      }
+	    ]
+	},
+	"whats_hot_list_title" : "What's Hot",
+	"whats_hot_items" : [
+		{
+			"wh_item_link" : "#",
+			"wh_item_heading" : "UCSF School of Medicine",
+			"wh_item_body" : "<p>A place of infinite promise and brain power, the UCSF School of Medicine is conquering cancer, inspiring leaders, healing hearts, and training the next generation of leaders in medicine.</p>"
+		},
+		{
+			"wh_item_link" : "#",
+			"wh_item_heading" : "UCSF School of Nursing",
+			"wh_item_body" : "<p>Fostering excellence, diversity, and innovation and providing global healthcare leadership.</p>"
+		},
+		{
+			"wh_item_link" : "#",
+			"wh_item_heading" : "UCSF School of Dentistry",
+			"wh_item_body" : "<p>A worldwide leader in dental education and public health, clinical practice, and scientific discovery.</p>"
+		},
+		{
+			"wh_item_link" : "#",
+			"wh_item_heading" : "UCSF School of Pharmacy",
+			"wh_item_body" : "<p>Focused on improving health through leading therapeutics-related research, education, and patient care, and public and professional service.</p>"
+		},
+		{
+			"wh_item_link" : "#",
+			"wh_item_heading" : "UCSF Graduate Division",
+			"wh_item_body" : "<p>The Graduate Division serves as the institutional home for graduate education and postdoctoral scholarship at UCSF, advocates for graduate students and postdocs, and promotes excellence in all graduate and postdoctoral training programs.</p>"
+		}
+	],
+	"give_to_full" : "<p><strong>Inspired?</strong> Every bit helps.</p>",
+	"give" : {
+		"label": "Give to UCSF",
+		"url" : "#"
+	}
+}

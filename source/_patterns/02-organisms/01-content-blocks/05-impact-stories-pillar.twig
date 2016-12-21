@@ -1,0 +1,37 @@
+<div class="block block--impact-stories-pillar background-color--{{ color }}">
+    <div class="content-area content-area--fluid">
+        <div class="column-wrapper">
+            {% block impact_of_giving_image %}
+                {% include "@molecules/02-blocks/04-impact-story-with-image.twig" with {
+                    "color" : color,
+                    "image" : hero_image,
+                    "text"  : story_title
+                } %}
+            {% endblock %}
+        </div>
+    </div>
+    <div class="content-area">
+        <div class="column-wrapper">
+            {% block funding_section %}
+                {% include "@molecules/02-blocks/03-funding-priorities-full.twig" with {
+                    "color" : color,
+                    "body_text" : copy_text,
+                    "link_label":link.label,
+                    "link_href" : link.href,
+                    "stats" : stats
+                } %}
+            {% endblock %}
+        </div>
+        <div class="column-wrapper">
+            {% block related_story %}
+                {% include "@molecules/02-blocks/02-impact-stories-block.twig" with {
+                    "color" : color, 
+                    "link" : story.link,
+                    "title" : story.title,
+                    "image_url" : story.hero_image,
+                    "copy_text" : story.sub_title
+                } %}
+            {% endblock %}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+<div class="content-area block block--impact-stories">
+    <div class="column-wrapper">
+        <h3 class="text-align--center">{% block label %}Creating Impact{% endblock %}</h3>
+    </div>
+    {% block content %}
+        <div class="column-wrapper">
+            {% include "01-molecules/02-blocks/02-impact-stories-block" with {
+                'color' : 'green',
+                'title' : homepage_impact_stories.first.title,
+                'copy_text' : homepage_impact_stories.first.copy_text,
+                'link' : homepage_impact_stories.first.link,
+                'image_url' :  homepage_impact_stories.first.image_url
+                 } %}
+        </div>
+        <div class="column-wrapper">
+            {% include "01-molecules/02-blocks/02-impact-stories-block" with {
+                'color' : 'orange',
+                'title' : homepage_impact_stories.second.title,
+                'copy_text' : homepage_impact_stories.second.copy_text,
+                'link' : homepage_impact_stories.second.link,
+                'image_url' :  homepage_impact_stories.second.image_url
+                } %}
+        </div>
+        <div class="column-wrapper">
+            {% include "01-molecules/02-blocks/02-impact-stories-block" with {
+                'color' : 'light-blue',
+                'title' : homepage_impact_stories.third.title,
+                'copy_text' : homepage_impact_stories.third.copy_text,
+                'link' : homepage_impact_stories.third.link,
+                'image_url' :  homepage_impact_stories.third.image_url
+                } %}
+        </div>
+    {% endblock %}
+</div>

@@ -1,0 +1,19 @@
+{
+	"contact_list_title" : "UCSF Foundation",
+	"address" : [
+		{
+		"address" : "UCSF Box 45339,<br> San Francisco, CA 94145-0339"
+		}
+	],
+	"telephone" : [
+		{
+			"number" : "+1-415-476-6922",
+			"label" : "+1 (415) 476-6922"
+		}
+	],
+	"email" : [
+		{
+			"email" : "email@deparment.com"
+		}
+	]
+}

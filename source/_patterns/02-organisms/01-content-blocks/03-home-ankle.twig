@@ -1,0 +1,30 @@
+<div class="block block--homepage-prefooter">
+    <div class="content-area">
+        <div class="column-wrapper">
+            <div class="content-area block--content">
+                <div class="column-wrapper">
+                     <div class="column-xsmall-12 column-small-6">
+                         <div class="block--start-fundraiser">
+                             {% block left %}
+                                <h4>{{ start_fundraiser.title }}</h4>
+                                <p>{{ start_fundraiser.body_text }}</p>
+                                <a href="{{ start_fundraiser.link_url }}" class="btn btn--secondary anchor">{{ start_fundraiser.link_label }}</a>
+                            {% endblock %}
+                         </div>
+                    </div>
+                    <div class="column-xsmall-12 column-small-6">
+                        <div class="block--give-to">
+                            {% block right %}
+                                <h4>{{ give_to.title }}</h4>
+                                <p>{{ give_to.body_text }}</p>
+                                <a href="{{ give_to.link_url }}" class="btn btn--with-icon anchor">
+                                    {{ give_to.link_label }}<i class="fa fa-heart"></i>
+                                </a>
+                            {% endblock %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

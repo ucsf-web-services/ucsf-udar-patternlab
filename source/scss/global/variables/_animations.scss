@@ -1,0 +1,8 @@
+@include keyframes(slideFromLeft){
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 0;
+    }
+}

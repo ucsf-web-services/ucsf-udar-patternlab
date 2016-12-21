@@ -1,0 +1,109 @@
+/*** Buttons ***/
+
+.btn{
+    font-family: $helvetica--medium;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    line-height: 1;
+    color: $color--white;
+    padding: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    @include border-radius(2px);
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    &.btn--primary{
+        background-color: $color--orange;
+        padding: 18.5px 15px;
+        text-decoration: none;
+        &:hover{
+            background-color: $color--orange-2;
+        }
+    }
+    &.btn--primary-small {
+        background-color: $color--orange;
+        padding: 12px 15px;
+        font-size: 15px;
+        text-decoration: none;
+        &:hover{
+            background-color: $color--orange-2;
+        }
+    }
+    &.btn--secondary{
+        background-color: $color--light-blue;
+        &:hover{
+            background-color: $color--oxford-blue;
+        }
+    }
+    &.btn--with-icon{
+        background-color: $color--orange;
+        i{
+            margin-left: 5px;
+            font-size: 15px;
+        }
+        &:hover{
+            background-color: $color--orange-2;
+            i{
+                color: $color--white;
+            }
+        }
+    }
+    &.anchor{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    &.btn--category {
+        font-family: $text-body--medium;
+        font-size: 10px;
+        background-color: $color--faded-gray;
+        color: $color--white;
+        padding: 20px;
+        border-radius: 0px;
+        text-decoration: none;
+        &:hover {
+            background-color: $color--gray;
+        }
+        &.btn--all {
+            &:hover, &.active {
+                background-color: $color--oxford-blue;
+            }
+        }
+        &.btn--research {
+           &:hover, &.active {
+             background-color: $color--teal;
+           }
+        }
+        &.btn--education {
+            &:hover, &.active {
+                background-color: $color--yellow-green;
+            }
+        }
+        &.btn--patient-care {
+            &:hover, &.active {
+                background-color: $color--light-blue;
+            }
+        }
+        &.btn--news {
+            &:hover, &.active {
+                background-color: $color--oxford-blue;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $width-small ) {
+    .btn {
+        &.btn--category {
+            padding: 10px;
+        }
+    }
+}
+

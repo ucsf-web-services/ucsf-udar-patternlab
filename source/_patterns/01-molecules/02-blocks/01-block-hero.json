@@ -1,0 +1,19 @@
+{
+  "background_image" : "/images/placeholder_16x9.png",
+  "backgrounds" : [
+  	{
+  		"background_image" : "/images/placeholder_16x9.png"
+    },
+    {
+    	"background_image" : "/images/MBH_hospital.jpg"
+    },
+    {
+    	"background_image" : "/images/home-hero-image.jpg"
+    }
+  ],
+  "heading" : "Your text here.",
+  "alignment" : "right",
+  "body" : "",
+  "link_text" : "Your link here",
+  "link_href" : "#"
+}

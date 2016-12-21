@@ -1,0 +1,74 @@
+{% extends "@pages/_base-page.twig" %}
+
+{% block content %}
+    <div class="contents--wrapper details-content--margin">
+        <div class="content-area">
+            <div class="column-wrapper">
+                <div class=" column-large-8 column-medium-8 column-small-12 column-xsmall-12">
+                    {% include "@molecules/02-blocks/03-block-header-landing-no-photo.twig" %}
+                </div>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="column-wrapper">
+                <div class=" column-large-8 column-medium-8 column-small-12 column-xsmall-12">
+                    {% include "@molecules/01-text/01-section-intro.twig" %}
+                    {# include "@organisms/01-content-blocks/04-ways-to-give-small.twig" #}
+                    <div class="block-honor-page-body">
+                        <h3 class="oxford-blue-text granjon-heading-text">How to Make Your Tribute Gift</h3>
+
+                        <ul class="htmytg-list">
+                            <li>Make your gift online.</li>
+                        </ul>
+                        <div class="non-list-item body-give-link">
+                            <a href="#" class="btn btn--primary-small">Give</a>
+                            <a href="#" class="btn btn--primary">Give</a>
+                        </div>
+                        <ul class="htmytg-list">
+                            <li>To send your gift by mail, please enclose a check payable to UCSF Foundation and a note regarding the gift to
+                              the address below.
+                            </li>
+                         </ul>
+                        <div class="non-list-item address">
+                            <address>
+                            <strong>UCSF</strong><br/>
+                            P.O. Box 45339<br/>
+                            San Francisco, CA 94145-0339<br/>
+                            </address>
+                        </div>
+                        <div class="non-list-item note">
+                            <p>
+                                <strong>In the note, please include the following:</strong><br>
+                                How you wish to designate your gift. View a list of UCSF giving opportunities.
+                                Whether the contribution is in honor or memory of someone. Plaese include their name so that we can notify them of your gift. UCSF will not share the amount of the contribution.
+                            </p>
+                        </div>
+                    </div>
+
+                    {% include "@molecules/02-blocks/06-block-story-nugget.twig" with {
+                        "image" : image,
+                        "bgcolor" : bgcolor,
+                        "nugget_title" : nugget_title,
+                        "nugget_content" : nugget_content,
+                        "nugget_link_label" : nugget_link_label,
+                        "nugget_link" : nugget_link
+                    }%}
+                </div>
+                <div class="column-large-3 column-large-offset-1 column-medium-4 column-small-12 column-xsmall-12">
+                    {% include "@organisms/01-content-blocks/04-ways-to-give-small.twig" with {
+                        "class_controller" : give_class_controller,
+                        "label": give_form_label
+                    } %}
+                    {% include "@molecules/02-blocks/05-block-contact-us.twig" with {
+                        "title" : contact_us_title,
+                        "department" : department,
+                        "telephone" : telephone,
+                        "email" : email
+                    } %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+

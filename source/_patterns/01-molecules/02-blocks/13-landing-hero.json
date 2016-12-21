@@ -1,0 +1,13 @@
+{
+  "backgrounds" : [
+  	{
+  		"background_image" : "/images/placeholder_16x9.png"
+    }
+  ],
+  "heading" : "Your text here.",
+  "alignment" : "left",
+  "body" : "<p>Suspendisse pretium, orci imperdiet blandit lobortis, ante dolor faucibus est, eu lacinia tortor quam vitae quam. Praesent at suscipit eros.</p>",
+  "custom_class": "",
+  "link_text" : "",
+  "link_href" : ""
+}

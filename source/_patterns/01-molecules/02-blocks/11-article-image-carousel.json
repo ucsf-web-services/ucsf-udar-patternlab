@@ -1,0 +1,26 @@
+{
+	"article_carousel_content" : {
+		"items" : [
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Proin ultrices molestie ex, id venenatis diam imperdiet eu. Aenean suscipit imperdiet mi, ut pulvinar sapien volutpat ut. Praesent in vehicula nisi."
+			},
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Integer eget nunc nec nulla pulvinar finibus. Integer ac erat tristique, faucibus turpis vitae, viverra lacus. Nam mauris enim, porttitor nec dui sit amet, fermentum imperdiet mauris."
+			},
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue a tortor a dignissim. Cras auctor interdum justo, eget efficitur lectus posuere non."
+			},
+			{
+				"image" : "http://placehold.it/1280x720",
+				"alt" : "",
+				"text" : "Integer eget nunc nec nulla pulvinar finibus. Integer ac erat tristique, faucibus turpis vitae, viverra lacus. Nam mauris enim, porttitor nec dui sit amet, fermentum imperdiet mauris."
+			}
+		]
+	}
+}

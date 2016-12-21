@@ -1,0 +1,22 @@
+{% extends "@pages/_base-page.twig" %}
+
+{% block header %}
+    {% include "@organisms/00-global/header-style-2.twig" %}
+{% endblock %}
+
+
+{% block content %}
+    <div class="contents--wrapper">
+        {% include "@molecules/02-blocks/01-block-hero.twig" %}
+        {% include "@molecules/08-messaging/00-alert.twig" %}
+        {% include "@organisms/01-content-blocks/01-funding-priorities.twig" with {
+        	"block_title": block_title,
+        	"funding_priorities" : funding_priorities
+        } %}
+        {% include "@organisms/01-content-blocks/00-ways-to-give.twig" %}
+        {% include "@organisms/01-content-blocks/02-homepage-impact-stories.twig"%}
+        {% include "@organisms/01-content-blocks/03-home-ankle.twig" %}
+    </div>
+{% endblock %}
+
+

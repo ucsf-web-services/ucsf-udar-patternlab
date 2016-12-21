@@ -1,0 +1,29 @@
+{% include '@molecules/03-forms/01-search-page-form.twig' %}
+<div class="search-result-count">
+	<p>
+		{% if search_results|length > 0 %} About {% endif %}{{ search_results|length }} results (0.44 seconds)
+	</p>
+</div>
+<div class="search-result-body">
+	{% if search_results|length > 0 %}
+		{% for item in search_results %}
+		    {% include '@molecules/02-blocks/25-search-result-item.twig' with {
+		    	"link" : item.link,
+		    	"label" : item.label,
+		    	"summary" : item.summary,
+		    	"tags" : item.tags
+		    } %}
+		{% endfor %}
+	{% else %}
+		   <div class="search-result-item">
+		   	<p class="body-text-medium-20">Sorry no search results were found</p>
+		   </div>
+	{% endif %}
+</div>
+<div class="search-pagination">
+	{% include "@molecules/05-navigation/04-pagination.twig" with {
+        "items" : items,
+        "current" : current,
+        "ellipses" : ellipses
+    } %}
+</div>

@@ -1,0 +1,40 @@
+{% extends "@pages/_base-page.twig" %}
+
+{% block content %}
+    <div class="contents--wrapper details-content--margin">
+        <div class="content-area">
+            <div class="column-wrapper">
+                <div class=" column-large-8 column-medium-8 column-small-12 column-xsmall-12">
+                    {% include "@molecules/02-blocks/03-block-header-landing-no-photo.twig" with {
+                    	"title" : title
+                    } %}
+                </div>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="column-wrapper">
+                <div class=" column-large-8 column-medium-8 column-small-12 column-xsmall-12">
+					<div class="block--basic-page-content">
+                        {% include '@molecules/02-blocks/21-contact-us-big.twig' with {
+                            "contact_list_title": contact_list_title,
+                            "address" : address,
+                            "telephone" : telephone,
+                            "email" : email
+                        } %}
+                        <p class="body-text-medium-20">You can also leave a message using the contact form below.</p>
+                        {% include '@atoms/05-forms/01-contact-form.twig' %}
+					</div>
+                </div>
+                <div class="column-large-3 column-large-offset-1 column-medium-4 column-small-12 column-xsmall-12">
+                    {% include '@molecules/02-blocks/22-questions-block.twig' with {
+                        "heading" : heading,
+                        "body" : body
+                    }%}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+

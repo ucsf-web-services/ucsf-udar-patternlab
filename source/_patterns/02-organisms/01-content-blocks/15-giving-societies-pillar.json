@@ -1,0 +1,30 @@
+{
+    "color" : "teal",
+    "hero_image" : "/images/MBH_hospital.jpg",
+    "story_title" : "UC San Francisco Society",
+    "copy_text" : "With annual gifts, UC San Francisco Society members fuel achievement and innovation in health and science, expand educational opportunities, promote public service, and foster investment in the health and well-being of the Bay Area and its citizens. Membership recognizes individuals making annual leadership gifts from $1,000 to $100,000.",
+    "link" : {
+        "label": "LEAD BY EXAMPLE WITH AN ANNUAL LEADERSHIP GIFT",
+        "href" : "#"
+    },
+	"contact_details" : {
+	    "contact_body" : "For more information, please contact:",
+	    "contact_phone_number" : [
+	      {
+	        "number" : "+1-415-476-6922",
+	        "label" : "+1 (415) 476-6922"
+	      }
+	    ],
+	    "contact_email" : [
+	        {
+	          "email" : "email@department.com"
+	        }
+	    ]
+	  },
+    "story" :{
+        "title" : "UCSF Event Brings Out the Best in Society",
+        "sub_title" : "UC San Francisco scientists strengthen the link between Zika virus and microcephaly.",
+        "hero_image" : "/images/MBH_hospital.jpg",
+        "link" : "#"
+    }
+}

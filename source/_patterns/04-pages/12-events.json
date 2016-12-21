@@ -1,0 +1,86 @@
+{
+  "backgrounds" : [
+    {
+    	"background_image" : "/images/MBH_hospital.jpg"
+    }
+  ],
+  "heading" : "Where giving back is fun!",
+  "alignment" : "left",
+  "hero_body" : "<p>Join UCSF in celebrating our community while fostering a cause you believe in. UCSF events play an essential role in raising awareness and funding for our priority areas.</p>",
+  "link_text" : "",
+  "link_href" : "",
+  "events" : [
+		{
+		    "title" : "Give Breast Cancer the Boot!",
+		    "copy_text" : "Put your boots on and show your support! Give Breast Cancer the Boot provides vital funding enhancing the quality of care for our patients.",
+		    "link" : "#",
+		    "image_url" : "https://placeholdit.imgix.net/~text?txtsize=60&txt=570%C3%97330&w=570&h=330"
+		},
+		{
+		    "title" : "UCSF Medal Award Ceremony",
+		    "copy_text" : "Put your boots on and show your support! Give Breast Cancer the Boot provides vital funding enhancing the quality of care for our patients.",
+		    "link" : "",
+		    "image_url" : "https://placeholdit.imgix.net/~text?txtsize=60&txt=570%C3%97330&w=570&h=330"
+		},
+		{
+		    "title" : "Give Breast Cancer the Boot!",
+		    "copy_text" : "Put your boots on and show your support! Give Breast Cancer the Boot provides vital funding enhancing the quality of care for our patients.",
+		    "link" : "#",
+		    "image_url" : "https://placeholdit.imgix.net/~text?txtsize=60&txt=570%C3%97330&w=570&h=330"
+		},
+		{
+		    "title" : "UCSF Medal Award Ceremony",
+		    "copy_text" : "Put your boots on and show your support! Give Breast Cancer the Boot provides vital funding enhancing the quality of care for our patients.",
+		    "link" : "",
+		    "image_url" : "https://placeholdit.imgix.net/~text?txtsize=60&txt=570%C3%97330&w=570&h=330"
+		},
+				{
+		    "title" : "Give Breast Cancer the Boot!",
+		    "copy_text" : "Put your boots on and show your support! Give Breast Cancer the Boot provides vital funding enhancing the quality of care for our patients.",
+		    "link" : "#",
+		    "image_url" : "https://placeholdit.imgix.net/~text?txtsize=60&txt=570%C3%97330&w=570&h=330"
+		},
+		{
+		    "title" : "UCSF Medal Award Ceremony",
+		    "copy_text" : "Put your boots on and show your support! Give Breast Cancer the Boot provides vital funding enhancing the quality of care for our patients.",
+		    "link" : "",
+		    "image_url" : "https://placeholdit.imgix.net/~text?txtsize=60&txt=570%C3%97330&w=570&h=330"
+		},
+		{
+		    "title" : "Give Breast Cancer the Boot!",
+		    "copy_text" : "Put your boots on and show your support! Give Breast Cancer the Boot provides vital funding enhancing the quality of care for our patients.",
+		    "link" : "#",
+		    "image_url" : "https://placeholdit.imgix.net/~text?txtsize=60&txt=570%C3%97330&w=570&h=330"
+		},
+		{
+		    "title" : "UCSF Medal Award Ceremony",
+		    "copy_text" : "Put your boots on and show your support! Give Breast Cancer the Boot provides vital funding enhancing the quality of care for our patients.",
+		    "link" : "",
+		    "image_url" : "https://placeholdit.imgix.net/~text?txtsize=60&txt=570%C3%97330&w=570&h=330"
+		}
+	],
+  	"cta_title" : "This Could Use a Title",
+	"cta_background" : "/images/MBH_hospital.jpg",
+	"ctas" : [
+		{
+			"text" : "Find fundraising opportunities across UCSF",
+			"link_label" : "ATTEND AN EVENT",
+			"link_href" : "#"
+		},
+		{
+			"text" : "Ready to attend bespoke UCSF events?",
+			"link_label" : "JOIN A GIVING SOCIETY",
+			"link_href" : "#"
+		},
+		{
+			"text" : "Create your own life-changing event",
+			"link_label" : "BE A FUNDRAISER",
+			"link_href" : "#"
+		}
+	],
+  	"give_to_full" : "<p>Your support is the foundation for our greatest innovations in <b>research, education, and patient care.</b></p>",
+	"give" : {
+		"label": "Give to UCSF",
+		"url" : "#"
+	}
+}

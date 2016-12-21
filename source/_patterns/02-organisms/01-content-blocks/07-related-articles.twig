@@ -1,0 +1,26 @@
+<div class="column-wrapper">
+	<div class="block block--impact-stories-grid related-articles">
+	  <div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+		{% block label %}
+		  	<h4 class="granjon-heading-text">
+				Related Articles
+			</h4>
+		{% endblock %}
+	  </div>
+	   <div class="related-items">
+		   	{% block related_articles %}
+			     {% for item in items %}
+		            <div class="column-large-12 column-medium-12 column-small-6 column-xsmall-12">
+		                {% include "@molecules/02-blocks/05-impact-story-small.twig" with {
+		                    "color" : item.color,
+		                    "date" : item.date,
+		                    "text" : item.text,
+		                    "category" : item.category,
+		                    "link" : item.link
+		                } %}
+		            </div>
+		        {% endfor %}
+		   {% endblock %}
+	   </div>
+	</div>
+</div>

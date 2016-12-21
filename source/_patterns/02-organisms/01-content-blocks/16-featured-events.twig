@@ -1,0 +1,19 @@
+<div class="content-area block block--impact-stories featured-events--extend">
+    <div class="column-wrapper">
+        <h3 class="text-align--center">{% block label %}Featured Events{% endblock %}</h3>
+    </div>
+    {% block content %}
+    <div class="featured-events-list" role="list">
+        {% for item in events %}
+            <div class="featured-event-item">
+                {% include "@molecules/02-blocks/19-featured-event-block.twig" with {
+                    'title' : item.title,
+                    'copy_text' : item.copy_text,
+                    'link' : item.link,
+                    'image_url' :  item.image_url
+                 } %}
+            </div>
+        {% endfor %}
+    </div>
+    {% endblock %}
+</div>

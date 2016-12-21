@@ -1,0 +1,24 @@
+{% extends "@pages/_base-page.twig" %}
+
+{% block header %}
+    {% include "@organisms/00-global/header-style-2.twig" %}
+{% endblock %}
+
+{% block content %}
+	<div class="contents--wrapper">
+		 {% include "@molecules/02-blocks/13-landing-hero.twig" with {
+            "backgrounds" : backgrounds,
+            "heading" : heading,
+            "body" : hero_body,
+            "alignment" : alignment,
+            "link_text" : link_text,
+            "link_href" : link_href
+        }
+        %}
+        {% include "@organisms/01-content-blocks/14-ways-to-get-involved-list.twig" with {
+        	"list_title" : list_title,
+        	"ways_to_get_involved_items" : ways_to_get_involved_items
+        }%}
+        {% include "@organisms/01-content-blocks/03-home-ankle.twig" %}
+	</div>
+{% endblock %}

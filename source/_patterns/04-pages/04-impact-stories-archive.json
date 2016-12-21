@@ -1,0 +1,156 @@
+{
+	"title" : "Stories",
+	"intro_text" : "<p>Overview statement about the UCSF impact stories. Te mollis saperet has. Et dicant copiosae comprehensam duo, ut cibo fabulas vix, dicit ridens phaedrum ius an.</p>",
+	"terms" : {
+		"research" : {
+			"href" : "#",
+			"term_name" : "Research"
+		},
+		"education" : {
+			"href" : "#",
+			"term_name" : "Education"
+		},
+		"patient-care" : {
+			"href" : "#",
+			"term_name" : "Patient Care"
+		},
+		"news" : {
+			"href" : "#",
+			"term_name" : "News"
+		}
+	},
+	"featured_item" : {
+        "link_href" : "#",
+        "color" : "teal",
+        "category" : "RESEARCH",
+        "date" : "October 1, 2015",
+        "image" : "http://placehold.it/1280x720",
+        "text" : "New $25 million gift propels research in psychiatric and neurological disorders."
+    },
+    "masonry_items" : [
+        {
+            "color" : "light-blue",
+            "date" : "August 3, 2016",
+            "text" : "UCSF Medical Center Ranked 7th Best Hospital in the U.S. for 2016-2017",
+            "category" : "PATIENT CARE",
+            "link" : "#"
+        },
+        {
+            "color" : "teal",
+            "date" : "August 2, 2016",
+            "text" : "New Understanding of Thirst Emerges from Brain Study",
+            "category" : "RESEARCH",
+            "link" : "#"
+        },
+        {
+            "color" : "light-blue",
+            "date" : "July 28, 2016",
+            "text" : "Bay Area Accountable Care Network Takes Shape",
+            "category" : "PATIENT CARE",
+            "link" : "#"
+        },
+        {
+            "color" : "green",
+            "date" : "July 24, 2016",
+            "text" : "School of Medicine Launches New Curriculum to Train the Doctors of the Future",
+            "category" : "EDUCATION",
+            "link" : "#"
+        },
+               {
+            "color" : "teal",
+            "date" : "August 2, 2016",
+            "text" : "New Understanding of Thirst Emerges from Brain Study",
+            "category" : "RESEARCH",
+            "link" : "#"
+        },
+                {
+            "color" : "light-blue",
+            "date" : "July 28, 2016",
+            "text" : "Bay Area Accountable Care Network Takes Shape",
+            "category" : "PATIENT CARE",
+            "link" : "#"
+        },
+                {
+            "color" : "green",
+            "date" : "July 24, 2016",
+            "text" : "School of Medicine Launches New Curriculum to Train the Doctors of the Future",
+            "category" : "EDUCATION",
+            "link" : "#"
+        },
+               {
+            "color" : "teal",
+            "date" : "August 2, 2016",
+            "text" : "New Understanding of Thirst Emerges from Brain Study",
+            "category" : "RESEARCH",
+            "link" : "#"
+        },
+                {
+            "color" : "light-blue",
+            "date" : "July 28, 2016",
+            "text" : "Bay Area Accountable Care Network Takes Shape",
+            "category" : "PATIENT CARE",
+            "link" : "#"
+        }
+    ],
+    "items" : {
+        "first" : false,
+        "previous" : false,
+        "next" : {
+            "href" : "#",
+            "attributes" : "",
+            "text" : ""
+        },
+        "last" : {
+            "href" : "#",
+            "attributes" : "",
+            "text" : ""
+        },
+        "pages" : {
+            "1" : {
+                "href" : "#",
+                "attributes" : ""
+            },
+            "2" : {
+                "href" : "#",
+                "attributes" : ""
+            },
+            "3" : {
+                "href" : "#",
+                "attributes" : ""
+            },
+            "4" : {
+                "href" : "#",
+                "attributes" : ""
+            },
+            "5" : {
+                "href" : "#",
+                "attributes" : ""
+            },
+            "6" : {
+                "href" : "#",
+                "attributes" : ""
+            },
+            "7" : {
+                "href" : "#",
+                "attributes" : ""
+            },
+            "8" : {
+                "href" : "#",
+                "attributes" : ""
+            },
+            "9" : {
+                "href" : "#",
+                "attributes" : ""
+            },
+            "10" : {
+                "href" : "#",
+                "attributes" : ""
+            }
+        }
+    },
+    "current" : "1",
+    "ellipses" : {
+        "next" : true,
+        "previous" : false
+    }
+}

@@ -1,0 +1,12 @@
+<a href="{{ link }}" class="block--item block--impact-stories-panel">
+    <div class="block--item-colored-panel background--{{ color ? color : 'green' }}">
+        <h4>{{ title }}</h4>
+        <p>{{ copy_text }}</p>
+        {% include '@molecules/01-text/07-text-with-icon.twig' with {
+            "link_text" : "read story",
+        } %}
+    </div>
+    <div class="block--item-image-panel">
+        <div class="image-display" style="background-image: url({{ image_url }});"></div>
+    </div>
+</a>

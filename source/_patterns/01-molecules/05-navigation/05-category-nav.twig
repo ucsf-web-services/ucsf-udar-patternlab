@@ -1,0 +1,18 @@
+<div class="content-area">
+	<div class="column-wrapper">
+		<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+			<ul class="category-nav" role="navigation">
+				<li>
+					<a class="btn btn--category btn--all active" href="#">ALL</a>
+				</li>
+				{% if terms %}
+				{% for key, item in terms %}
+				<li>
+					<a class="btn btn--category btn--{{ key }}" href="{{ item.href }}">{{ item.term_name|upper }}</a>
+				</li>
+				{% endfor %}
+				{% endif %}
+			</ul>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,30 @@
+<div class="content-area block block--impact-stories-grid">
+    <div class="column-wrapper">
+        {% block label %}
+            <h3 class="text-align--center">Impact Stories</h3>
+        {% endblock %}
+    </div>
+    <div class="column-wrapper">
+        {% block items %}
+            {% for item in items %}
+                <div class="column-large-3 column-medium-3 column-small-6 column-xsmall-12">
+                    {% include "@molecules/02-blocks/05-impact-story-small.twig" with {
+                        "color" : item.color,
+                        "date" : item.date,
+                        "text" : item.text,
+                        "category" : item.category,
+                        "link" : item.link
+                    } %}
+                </div>
+            {% endfor %}
+        {% endblock %}
+    </div>
+    <div class="column-wrapper text-align--center see-more-link">
+        {% block more_links %}
+            {% include '@molecules/01-text/06-link-with-icon.twig' with {
+                "link_text" : "SEE MORE IMPACT STORIES",
+                "link_href" : "#"
+            } %}
+        {% endblock %}
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="column-wrapper">
+	<div class="block block--learn-more">
+		<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+				<h4 class="granjon-heading-text">Learn More</h4>
+			   <div class="learn-more-items">
+				   	{% block learn_more_list %}
+				        <ul class="no-style">
+							{% if learn_links %}
+								{% for item in learn_links %}
+									<li>
+										<a href="{{ item.link }}">
+											{{ item.label }}
+										</a>
+									</li>
+								{% endfor %}
+							{% endif %}
+						</ul>
+				   {% endblock %}
+			   </div>
+		</div>
+	</div>
+</div>
+

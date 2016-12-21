@@ -1,0 +1,26 @@
+<div class="block block--give-block-full-width">
+    <div class="content-area">
+        <div class="column-wrapper">
+            <div class="column-xsmall-12 column-small-12 column-medium-12 column-large-12">
+                <div class="block--give-to-ucsf-content">
+                    {% block content %}
+                        {{ give_to_full|raw }}
+                    {% endblock %}
+                    {% block button %}
+                        <a class="btn btn--with-icon" href="{{ give.url }}">
+                            {{ give.label }} <i class="fa fa-heart"></i>
+                        </a>
+                    {% endblock %}
+                </div>
+            </div>
+            <!-- <div class="column-xsmall-12 column-small-7 column-medium-8 column-large-9">
+                {# give_to_full|raw #}
+            </div>
+            <div class="column-xsmall-12 column-small-5 column-medium-4 column-large-3">
+                <a class="btn btn--with-icon" href="{# give.url #}">
+                    {# give.label #} <i class="fa fa-heart"></i>
+                </a>
+            </div> -->
+        </div>
+    </div>
+</div>

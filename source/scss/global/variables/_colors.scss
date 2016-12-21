@@ -1,0 +1,50 @@
+$color--oxford-blue: #052049;
+$color--light-blue: #007CBE;
+$color--yellow-green: #6EA400;
+$color--teal: #058488;
+$color--orange: #F26D04;
+$color--orange-2: #D45E00;
+$color--light-gray: #F1F1F1;
+$color--light-gray-2: #dadee4;
+$color--light-gray-3: #ebf3fa;
+$color--black: #000000;
+$color--black-2: #353a3f;
+$color--white: #FFFFFF;
+$color--medium-gray: #58595b;
+$color--dark-gray: #B4B9BF;
+$color--dark-gray-2: #989898;
+$color--gray: #4d4d4d;
+$color--faded-gray: #abb3ba;
+$color--translucent-black: rgba(0,0,0,0.5);
+$color--border-impact-stories-pillar: #d1d3d3;
+
+
+
+$colors: (
+('oxford-blue', $color--oxford-blue),
+('light-blue', $color--light-blue),
+('yellow-green', $color--yellow-green),
+('teal', $color--teal),
+('orange', $color--orange),
+('light-gray', $color--light-gray),
+('light-gray-2', $color--light-gray-2),
+('black', $color--black),
+('black-2', $color--black-2),
+('white', $color--white),
+('dark-gray', $color--dark-gray),
+('light-gray-3', $color--light-gray-3),
+('medium-gray', $color--medium-gray)
+);
+
+@each $color in $colors {
+  $name: nth($color, 1);
+  $value: nth($color, 2);
+
+  .#{$name}-text {
+    color: $value;
+  }
+
+  .#{$name}-bg {
+    background-color: $value;
+  }
+}

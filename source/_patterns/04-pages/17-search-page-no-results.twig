@@ -1,0 +1,32 @@
+{% extends "@pages/_base-page.twig" %}
+
+{% block content %}
+    <div class="contents--wrapper">
+        <div class="content-area">
+            <div class="column-wrapper">
+                <div class=" column-large-8 column-medium-8 column-small-12 column-xsmall-12">
+                    {% include "@molecules/02-blocks/03-block-header-landing-no-photo.twig" with {
+                    	"title" : title
+                    } %}
+                </div>
+            </div>
+        </div>
+        <div class="content-area">
+            <div class="column-wrapper">
+                <div class=" column-large-8 column-medium-8 column-small-12 column-xsmall-12">
+
+                        {% include '@organisms/01-content-blocks/19-search-results.twig' with {
+                            "search_results" : search_results
+                        } %}
+
+                </div>
+                <div class="column-large-3 column-large-offset-1 column-medium-4 column-small-12 column-xsmall-12">
+                     {% include "@organisms/01-content-blocks/08-learn-more.twig" %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+

@@ -1,0 +1,32 @@
+{% extends "@pages/_base-page.twig" %}
+
+{% block header %}
+    {% include "@organisms/00-global/header-style-2.twig" %}
+{% endblock %}
+
+{% block content %}
+	<div class="contents--wrapper">
+		 {% include "@molecules/02-blocks/13-landing-hero.twig" with {
+            "backgrounds" : backgrounds,
+            "heading" : heading,
+            "body" : hero_body,
+            "alignment" : alignment,
+            "link_text" : link_text,
+            "link_href" : link_href
+        }
+        %}
+        {% include "@organisms/01-content-blocks/11-ways-to-give-inline.twig" %}
+            {% include "@organisms/01-content-blocks/01-funding-priorities.twig" with {
+        	"block_title": block_title,
+        	"funding_priorities" : funding_priorities
+        } %}
+        {% include "@organisms/01-content-blocks/12-whats-hot-list.twig" with {
+            "whats_hot_list_title" : whats_hot_list_title,
+            "whats_hot_items" : whats_hot_items
+        } %}
+        {% include "@molecules/02-blocks/07-give-block-full-width.twig" with {
+            "give_to_full" : give_to_full,
+            "give" : give
+        } %}
+	</div>
+{% endblock %}

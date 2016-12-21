@@ -1,0 +1,16 @@
+<div class="block--past-events">
+	<div class="title-and-content-group--wrapper">
+		<h3>Past Events</h3>
+		{{ content|raw }}
+	</div>
+	{% if event_images|length > 0 %}
+	<div class="event-images">
+		{% for item in event_images %}
+		    {% include '@molecules/02-blocks/24-image-and-caption-single.twig' with {
+		    	"image" : item.image,
+		    	"caption" : item.caption
+		    } %}
+		{% endfor %}
+	</div>
+	{% endif %}
+</div>

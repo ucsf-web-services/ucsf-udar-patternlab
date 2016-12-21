@@ -1,0 +1,32 @@
+{% extends "@pages/_base-page.twig" %}
+
+{% block content %}
+    <div class="contents--wrapper details-content--margin">
+        {% block top_section %}
+
+        {% endblock %}
+        <div class="content-area">
+            <div class="column-wrapper">
+                <div class="column-large-9 column-medium-8 column-small-12 column-xsmall-12">
+                    <div class="column-wrapper">
+                        {% block left_section %}
+
+                        {% endblock %}
+                    </div>
+                </div>
+                <div class="column-large-3 column-medium-4 column-small-12 column-xsmall-12">
+                    <div class="column-wrapper">
+                        {% block right_section %}
+
+                        {% endblock %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% block bottom_section %}
+
+    {% endblock %}
+{% endblock %}
+
+

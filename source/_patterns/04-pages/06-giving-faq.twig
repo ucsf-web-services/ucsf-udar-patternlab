@@ -1,0 +1,123 @@
+{% extends "@pages/_base-page.twig" %}
+
+{% block content %}
+	<div class="contents--wrapper">
+		<div class="content-area">
+	        <div class="column-wrapper">
+	            <div class="column-large-8 column-medium-8 column-small-12 column-xsmall-12">
+	            	{% include "@molecules/01-text/00-section-header.twig" with {
+	                    "title" : title
+	                } %}
+	            </div>
+	        </div>
+	    </div>
+	    <div class="content-area">
+	    	<div class="column-wrapper">
+	    		<div class="column-large-8 column-medium-9 column-small-12 column-xsmall-12">
+	    			<h3>What are my payment options?</h3>
+	    			<div class="paragraph-with-icon">
+	    				<div class="icon"><i class="fa fa-question-circle-o"></i></div>
+	    				<p class="body-text-medium-20">Online</p>
+	    			</div>
+	    			<div class="padded-paragraph-group-wrapper">
+	    				<p class="body-text-regular-18">Visit UCSF online giving.</p>
+	    				<p class="body-text-light-20">(There are no additional fees added to your credit card when you make a gift online.)</p>
+	    			</div>
+	    			<br>
+	    			<div class="paragraph-with-icon body-text-medium-20">
+	    				<div class="icon"><i class="fa fa-question-circle-o"></i></div>
+	    				<p class="body-text-medium-20">Mail</p>
+	    			</div>
+	    			<div class="padded-paragraph-group-wrapper">
+	    				<ul class="custom-padded-list body-text-regular-18">
+		    				<li>Make checks payable to: UCSF Foundation. </li>
+		    				<li>Include allocation instructions on the memo line. </li>
+		    				<li>Attach a note as to how you would like to designate your gift. </li>
+		    				<li>Send gifts by U.S. Mail to:</li>
+		    			</ul>
+	    			</div>
+	    			<div class="padded-paragraph-group-wrapper">
+	    				<p class="address_account_detail content-padded body-text-light-18">
+	    					<strong>UCSF</strong><br>
+	    					P.O. Box 45339 <br>
+	    					San Francisco, CA 94145-0339<br>
+	    				</p>
+	    			</div>
+	    			<div class="padded-paragraph-group-wrapper">
+	    				<ul class="custom-padded-list body-text-medium-18">
+		    				<li>Send gifts by Courier (Federal Express, etc) to:</li>
+		    			</ul>
+	    			</div>
+	    			<div class="padded-paragraph-group-wrapper">
+	    				<p class="address_account_detail content-padded body-text-light-18">
+	    					<strong>Union Bank of California</strong><br>
+	    					Lockbox Operation, N01622 <br>
+		    				Lockbox # 45339, UCSF Foundation<br>
+		    				460 Hegenberger Road, Building <br>
+		    				Oakland, CA 94621<br>
+	    				</p>
+	    			</div>
+	    			<br>
+	    			<div class="paragraph-with-icon">
+	    				<div class="icon"><i class="fa fa-question-circle-o"></i></div>
+	    				<p class="body-text-medium-20">Phone</p>
+	    			</div>
+	    			<div class="padded-paragraph-group-wrapper">
+	    				<p class="body-text-regular-18">Call toll-free 877/499-UCSF (877/499-8273) to charge by phone.</p>
+	    			</div>
+	    			<br>
+	    			<div class="paragraph-with-icon">
+	    				<div class="icon"><i class="fa fa-question-circle-o"></i></div>
+	    				<p class="body-text-medium-20">Gift of Securities</p>
+	    			</div>
+	    			<div class="padded-paragraph-group-wrapper">
+	    				<p class="body-text-regular-18">Call toll-free 877/499-UCSF (877/499-8273) or email custsvc@support.ucsf.edu for guidance on how to make gifts of securities.</p>
+	    			</div>
+	    			<br>
+					<div class="paragraph-with-icon">
+	    				<div class="icon"><i class="fa fa-question-circle-o"></i></div>
+	    				<p class="body-text-medium-20">Wire Transfer</p>
+	    			</div>
+	    			<div class="padded-paragraph-group-wrapper">
+	    				<ul class="custom-padded-list body-text-medium-18">
+		    				<li>Gifts to UCSF can be made via wire transfer to the following account:</li>
+		    			</ul>
+	    			</div>
+	    			<div class="padded-paragraph-group-wrapper">
+						<p class="address_account_detail content-padded body-text-light-18">
+	    					State Street Bank & Trust <br>
+	    					Boston, MA <br>
+	    					ABA # 011-000028 <br>
+	    					Acct # 00112086 <br>
+	    					UCSF Current Gift - TWE1 <br>
+	    					Reference: "Name of donor sending the wire. <br>
+	    				</p>
+	    			</div>
+	    			<br>
+					<div class="padded-paragraph-group-wrapper">
+	    				<ul class="custom-padded-list body-text-medium-18">
+		    				<li>Fax the following information to the UCSF Foundation at 415-476-5083:
+		    				</li>
+		    			</ul>
+	    			</div>
+	    			<div class="padded-paragraph-group-wrapper">
+	    				<ul class="dashed custom-padded-list body-text-light-18">
+		    				<li>Total amount wired</li>
+		    				<li>Date of the wire</li>
+		    				<li>Name of the program, campaign, or fund to which the gift should be credited.</li>
+		    			</ul>
+	    			</div>
+	    			<br>
+	    			<br>
+	    			<p class="body-text-medium-20">
+	    				For additional information contact Customer Service at 877/499-UCSF (877/499-8273) or email custsvc@support.ucsf.edu.
+	    			</p>
+	    		</div>
+	    	</div>
+	    </div>
+		{% include "@organisms/01-content-blocks/10-accordion-list.twig" with {
+			"accordion_list_title" : accordion_list_title,
+			"accordion_items" : faq_items
+		} %}
+	</div>
+{% endblock %}

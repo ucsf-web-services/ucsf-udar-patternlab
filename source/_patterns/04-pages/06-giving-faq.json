@@ -1,0 +1,54 @@
+{
+	"title" : "Giving FAQ",
+	"accordion_list_title" : "Frequently Asked Questions",
+	"faq_items" : [
+		{
+			"accordion_item_header" : "What are the advantages of making an outright gift vs. a pledge?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		},
+		{
+			"accordion_item_header" : "What is planned giving?",
+			"accordion_item_body" : "<p>The quickest way to participate is by making a secure online contribution or signing up for payroll deductions. Just visit http://support.ucsf.edu/employeegiving. You may also complete a printed form and mail it in with your check.</p>"
+		},
+		{
+			"accordion_item_header" : "Are international donations accepted?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		},
+		{
+			"accordion_item_header" : "Are donations tax-deductible in the United States?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		},
+		{
+			"accordion_item_header" : "Do donations qualify for tax deductions in other countries?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		},
+		{
+			"accordion_item_header" : "Are gifts assessed for infrastructure costs or central services?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		},
+		{
+			"accordion_item_header" : "Will I receive a receipt?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		},
+		{
+			"accordion_item_header" : "What if I need a duplicate receipt?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		},
+		{
+			"accordion_item_header" : "What is UCSF Foundation's Employer Identification Number (EIN), also known as a Federal Tax Identification Number?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		},
+		{
+			"accordion_item_header" : "How quickly will my donation be processed?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		},
+		{
+			"accordion_item_header" : "Can I make a gift in honor or in memory of someone?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		},
+		{
+			"accordion_item_header" : "Who can I contact for more information?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		}
+	]
+}

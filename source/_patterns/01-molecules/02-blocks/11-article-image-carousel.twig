@@ -1,0 +1,27 @@
+{% block block_article_carousel %}
+<div class="block-article-carousel--wrapper">
+	<div class="block--article-carousel mobile-block">
+		{% block gallery_images %}
+			{% if article_carousel_content.items %}
+				{% for item in article_carousel_content.items %}
+				<div class="item">
+					<img class="item-image" src="{{ item.image }}" alt="">
+				</div>
+				{% endfor %}
+			{% endif %}
+		{% endblock %}
+	</div>
+	<div class="block--article-carousel desktop-block">
+		{% block gallery_image_content %}
+			{% for item in article_carousel_content.items %}
+				<div class="item">
+					<div class="item-content">
+						<span class="date">{{ "%02d"|format(loop.index) }} / {{ "%02d"|format(loop.length) }}</span> {{item.text|raw}}
+					</div>
+				</div>
+			{% endfor %}
+		{% endblock %}
+	</div>
+</div>
+{% endblock %}
+

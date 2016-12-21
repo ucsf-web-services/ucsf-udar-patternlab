@@ -1,0 +1,94 @@
+/*** Page ***/
+
+a{
+    cursor: pointer;
+    font-family: $text-body--regular;
+    color: $color--light-blue; // Applying this color for now.
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+    strong, b {
+        font-family: $text-body--bold;
+    }
+    &.link{
+        @include type-definition(16px, 1.125);
+        color: $color--oxford-blue;
+        text-transform: uppercase;
+        font-family: $text-body--medium;
+        &.link--with-icon{
+            position: relative;
+            text-decoration: none;
+            .text {
+                position: relative;
+                // &::after {
+                //     content: "";
+                //     position: absolute;
+                //     bottom: -1px;
+                //     left: 0px;
+                //     width: 100%;
+                //     height: 0px;
+                //     background-color: $color--white;
+                // }
+            }
+            .link--icon{
+                color: $color--light-blue;
+                height: 26px;
+                width: 23px;
+                position: relative;
+                top: -2px;
+                margin-left: 5px;
+                overflow: hidden;;
+                .icon--visible-hover{ display: none; }
+                .icon--circle{ @include type-definition(25px, 1); }
+                .icon--angle{ @include type-definition(19px, 1.27); }
+            }
+
+            &:hover{
+                text-decoration: none;
+                .icon--visible-hover{
+                    display: block;
+                }
+                .icon--angle{
+                    @include animation(slideFromLeft 0.4s);
+                    color: $color--white;
+                }
+                .text {
+                    text-decoration: underline;
+                    // &::after {
+                    //     height: 1px;
+                    // }
+                }
+            }
+
+            &.background--dark{
+                color: $color--white;
+                .link--icon{
+                    color: $color--white;
+                }
+                &:hover{
+                    .icon--angle{
+                        color: $color--black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $bp--small-max) {
+    a {
+        &.link{
+            &.link--with-icon {
+                 &:hover{
+                    .text {
+                        text-decoration: underline;
+                        &::after {
+                            height: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

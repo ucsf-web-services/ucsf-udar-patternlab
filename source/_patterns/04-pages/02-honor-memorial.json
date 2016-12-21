@@ -1,0 +1,25 @@
+{
+	"title" : "Honor Someone Special in Your Life",
+	"intro_text": "<p>The sweetest gifts are never the gifts you receive, but the gifts you give. Honor a friend or remember a loved one by making a gift to UCSF.</p><p>Your <strong>memorial gift</strong> is a meaningful way to remember, honor, or celebrate someone important to you. Memorial gifts keep the memory of your loved one alive and have lasting impact.</p><p>Your <strong>honorary gift</strong> is a powerful way to express your love and make a difference. An honorary gift can be made in lieu of flowers, or in honor of a birthday, anniversary, graduation, or a good deed. You can also honor your physician, nurse or caregiver or show your gratitude for the care you or someone you love received at UCSF. </p>",
+	"bgcolor" : "blue",
+    "image" : "http://placehold.it/1280x720",
+    "nugget_title" : "Tribute Fund Establishes Childhood Cancer Rescue Initiative",
+ 	"nugget_content" : "<p>Unlike some her age, Penelope Patient was not a passive kid playing computer games. She was far more likely to be doing cartwheels, jumping on the trampoline, or running with her friends. It was her gymnastics coach who noticed her limping. Penelope said it was just muscle pain. But when she asked to sit out of a competition, her mother knew something was very wrong. Soon after, Penelope was diagnosed with osteosarcoma, a rare bone cancer, that  sidelined her with surgeries, chemotherapy and radiation.</p><p>Penelope’s friends started a campaign and raised $430,000 for her care. Since Penelope’s UCSF treatment team were able to push her cancer into remission, she was able to jump back into her activities quickly. With the excess money raised, the family established a fund to provide necessary treatment to children without means. Today, that fund serves over 9,000 needy children annually and has provided treatment for 45,000 Bay Area children. </p><div class=\"photo-caption\"><p>PHOTO: A research project that seemed to be floundering is instead transforming the world of science as three unlikely candidates for the Nobel Prize have cured the world’s deadliest disease. <i>Captured By: Richard Wilson</i></p></div>",
+ 	"nugget_link_label" : "READ FULL STORY",
+    "nugget_link" : "#",
+    "give_form_label" : "Give a Gift of Tribute",
+    "give_class_controller" : "sidebar",
+	"contact_us_title": "Contact Us",
+	"department" : "Department Name",
+	"telephone" : [
+		{
+			"number" : "+1-415-476-6922",
+			"label" : "+1 (415) 476-6922"
+		}
+	],
+	"email" : [
+		{
+			"email" : "email@deparment.com"
+		}
+	]
+ }

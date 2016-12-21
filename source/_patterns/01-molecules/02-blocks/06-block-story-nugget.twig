@@ -1,0 +1,39 @@
+{% block story_nugget %}
+    <div class="block-story-nugget">
+		<div class="story-nugget-display-image" style="background-image: url('{{ image }}');"></div>
+		<div class="story-nugget-data">
+			<div class="story-nugget-content--wrapper">
+				<div class="story-nugget-title column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+					{% if nugget_link %}
+						<a href="{{ nugget_link }}"><h4 class="background--{{ bgcolor }}">{{ nugget_title }}</h4></a>
+					{% else %}
+						<h4 class="background--{{ bgcolor }}">{{ nugget_title }}</h4>
+					{% endif %}
+				</div>
+				<div class="story-nugget-content column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+					{% if nugget_content %}
+						{{ nugget_content|raw }}
+					{% endif %}
+
+					{% if caption %}
+						<div class="photo-caption">
+							{{ caption|raw }}
+						</div>
+					{% endif %}
+				</div>
+				{% block nugget_link %}
+					{% if nugget_link %}
+						<div class="story-nugget-link column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+							{% include '@molecules/01-text/06-link-with-icon.twig' with {
+								"link_text" : nugget_link_label,
+								"link_href" : nugget_link
+							} %}
+						</div>
+					{% endif %}
+				{% endblock %}
+			</div>
+		</div>
+
+	</div>
+{% endblock %}
+

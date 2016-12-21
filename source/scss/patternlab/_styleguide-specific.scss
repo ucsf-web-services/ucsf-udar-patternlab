@@ -1,0 +1,145 @@
+/*** Styleguide Specific ***/
+/**
+ * This stylesheet is for styles you want to include only when the interface is being viewed within Pattern Lab.
+ * This is helpful for displaying demo styles for grids, animations, color swatches, etc
+ * It's also helpful for overriding context-specific styles like fixed or absolutely positioned elements
+ * These styles will not be your production CSS.
+ */
+
+
+.palette{
+  list-style: none;
+  padding: 0;
+
+  div {
+    padding: 5px;
+    font-size: 13px;
+    font-size: 0.92857rem;
+    color: #fff;
+    text-align: center;
+  }
+  span {
+    display: block;
+  }
+  .color {
+    height: 125px;
+    padding-top: 1.5em;
+    position: relative;
+    &.dark-text{
+      color: $color--black;
+    }
+  }
+  h3 {
+    color: #333;
+    font-size: 11px;
+    font-family: $text-body--regular;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .hex, .variable{
+    position: absolute;
+    font-family: $text-body--bold;
+  }
+  .hex{
+    top: 5px;
+    right: 10px;
+  }
+  .variable {
+    bottom: 5px;
+    left: 10px;
+  }
+}
+
+#atoms-colors {
+  overflow: hidden;
+
+  >li {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    padding: 0.3em;
+    margin: 0;
+    box-sizing: border-box;
+    .sg-swatch {
+      display: block;
+      height: 50px;
+      float: left;
+      width: 33%;
+      outline: dotted 1px hsl(0, 0%, 50%);
+    }
+    .sg-info {
+      line-height: 1;
+      float: right;
+      width: 66%;
+    }
+  }
+  h5.headline {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
+.font-type{
+  .font-sample{
+    padding: 20px;
+    width: 50%;
+    float:left;
+  }
+}
+
+
+.button-demo{
+  .button-sample{
+    padding: 20px 10px;
+    display: inline-block;
+    width: 100%;
+    &.dark{
+      background: $color--black;
+    }
+  }
+}
+
+.grid-sample{
+  .content-area{
+    .column-wrapper{
+      div{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px $color--light-gray solid;
+        &:nth-child(even){
+          background-color: $color--light-blue;
+        }
+        &:nth-child(odd){
+          background-color: $color--teal;
+        }
+      }
+    }
+  }
+}
+
+.patternLink{
+  color: $color--oxford-blue;
+  text-decoration: none;
+  outline: 0;
+  text-transform: capitalize;
+}
+
+.sg-pattern-example {
+  .nav--wrapper{
+    position: relative;
+  }
+  .btn{
+    width: 270px;
+  }
+  #message_popup {
+    position: static;
+    .popup_body {
+      position: static;
+      transform: translateY(0);
+      left: initial;
+      right: initial;
+      top: initial;
+      margin: 0;
+    }
+  }
+}
+

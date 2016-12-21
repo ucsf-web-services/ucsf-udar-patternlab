@@ -1,0 +1,431 @@
+.hero--wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: block;
+    // & ~ .content-area {
+    // 	margin-top: 30px;
+    // }
+    &.basic-page--hero {
+    	margin-bottom: 40px;
+    }
+}
+
+.basic-page--hero {
+	.block {
+		&.block--landing-hero {
+			.hero-background {
+				.backgrounds {
+					background-position: center center;
+				}
+			}
+		}
+	}
+}
+
+.block {
+	display: block;
+	&.block-hero, &.block--landing-hero {
+		position: relative;
+		display: block;
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 350px;
+		background-color: $color--black;
+		.content-area {
+			height: 100%;
+			.column-wrapper {
+				height: 100%;
+				& > div:last-child {
+					height: 100%;
+				}
+			}
+		}
+		.hero-background {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			display: block;
+			opacity: 0.7;
+			z-index: 0;
+			.backgrounds {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-position: top center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: local;
+				z-index: 0;
+			}
+		}
+		.hero-text {
+			display: block;
+		    opacity: 1;
+		    text-align: center;
+		    position: absolute;
+		    top: 50%;
+		    // left: 15px;
+		    // right: 15px;
+			-webkit-transform:  translateY(-50%);
+			-ms-transform:  translateY(-50%);
+			-o-transform:  translateY(-50%);
+			transform:  translateY(-50%);
+			color: $color--white;
+			&.align-left {
+				float: none;
+			}
+			&.align-right {
+				float: none;
+			}
+			p {
+				font-size: 18px;
+				display: none;
+				margin: 0px;
+			}
+			& > a {
+				display: none;
+				&.link.link--with-icon {
+					color: $color--white;
+					.link--icon {
+						color: $color--white;
+					}
+					&:hover {
+						.icon--angle {
+							color: $color--light-blue;
+						}
+					}
+				}
+			}
+		}
+		& > .link--with-icon {
+			display: block;
+			position: absolute;
+		    bottom: 40px;
+		    left: 0;
+		    right: 0;
+		    text-align: center;
+		    z-index: 1;
+			&.link.link--with-icon {
+				color: $color--white;
+				.link--icon {
+					color: $color--white;
+				}
+				&:hover {
+					.icon--angle {
+						color: $color--light-blue;
+					}
+				}
+			}
+		}
+	}
+	&.block-hero {
+		.hero-background {
+			.backgrounds {
+				display: none;
+			}
+		}
+	}
+	&.block--landing-hero {
+		margin-bottom: 30px;
+		.hero-background {
+			.backgrounds {
+				display: block;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $bp--xsmall-max){
+	.block {
+		display: block;
+		&.block-hero, &.block--landing-hero {
+			.hero-text {
+				&.align-left {
+					left: 15px;
+					right: 15px;
+				}
+				&.align-right {
+					left: 15px;
+					right: 15px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: $width-small){
+	.hero--wrapper {
+		background-color: $color--white;
+		// & ~ .content-area {
+		// 	margin-top: 40px;
+		// }
+	}
+	.block {
+		&.block-hero, &.block--landing-hero {
+			background-position: top center;
+			.hero-background {
+				background-color: $color--white;
+				opacity: 1;
+				// background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local;
+				}
+			}
+			.hero-text {
+				position: relative;
+   				text-align: left;
+   				width: 57%;
+   				&.align-left {
+					// left: 15px;
+					// right: initial;
+					float: left;
+				}
+				&.align-right {
+					// left: initial;
+					// right: 15px;
+					float: right;
+				}
+   				h1 {
+   					@include type-definition(40px,1.2);
+					margin-bottom: 20px;
+				}
+   				p{
+   					display: block;
+   				}
+   				& > a {
+   					display: block;
+   					font-family: $text-body--bold;
+   				}
+			}
+			& > .link--with-icon {
+				display: none;
+			}
+		}
+		&.block-hero {
+			height: 516px;
+		}
+		&.block--landing-hero {
+			height: 450px;
+			margin-bottom: 0px;
+		}
+	}
+}
+
+@media screen and (min-width: $width-medium){
+	.hero--wrapper {
+		margin-bottom: 0px;
+		// & ~ .content-area {
+		// 	margin-top: 40px;
+		// }
+	}
+	.block {
+		&.block-hero {
+			background-position: top center;
+			height: 72.567vh;
+			.hero-background {
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: fixed;
+				}
+			}
+			.hero-text {
+				width: 47%;
+   				&.align-left {
+					// left: 15px;
+					// right: initial;
+					float: left;
+				}
+				&.align-right {
+					// left: initial;
+					// right: 15px;
+					float: right;
+				}
+				h1 {
+					@include type-definition(60px,1.08);
+				}
+			}
+		}
+		&.block--landing-hero {
+			background-position: top center;
+			height: 450px;
+			margin-bottom: 0px;
+			.hero-background {
+				background-attachment: fixed;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: fixed;
+				}
+			}
+			.hero-text {
+				width: 65%;
+   				&.align-left {
+					// left: 15px;
+					// right: initial;
+					float: left;
+				}
+				&.align-right {
+					// left: initial;
+					// right: 15px;
+					float: right;
+				}
+				h1 {
+					@include type-definition(60px,1);
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (min-width: $width-large){
+	.hero--wrapper {
+		margin-bottom: 0px;
+		// & ~ .content-area {
+		// 	margin-top: 40px;
+		// }
+	}
+	.block {
+		&.block-hero{
+			background-position: top center;
+			min-height: 480px;
+			height: 76.567vh;
+			.hero-background {
+				background-attachment: fixed;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: fixed;
+				}
+			}
+			.hero-text {
+				width: 47%;
+   				&.align-left {
+					// left: 15px;
+					// right: initial;
+					float: left;
+				}
+				&.align-right {
+					// left: initial;
+					// right: 15px;
+					float: right;
+				}
+				h1 {
+					@include type-definition(60px,1.08);
+				}
+			}
+		}
+		&.block--landing-hero {
+			background-position: top center;
+			height: 450px;
+			margin-bottom: 0px;
+			.hero-background {
+				background-attachment: fixed;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: fixed;
+				}
+			}
+			.hero-text {
+				width: 57%;
+   				&.align-left {
+					left: 15px;
+					right: initial;
+				}
+				&.align-right {
+					left: initial;
+					right: 15px;
+				}
+				h1 {
+					@include type-definition(60px,1);
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: $width-large) and (max-width: 1366px) {
+	.block {
+		&.block-hero{
+			height: 72.567vh;
+		}
+	}
+}
+
+
+@media screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : portrait) {
+	.block {
+		&.block-hero, &.block--landing-hero {
+			.hero-background {
+				background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local !important;
+				}
+			}
+		}
+	}
+}
+
+@media screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : landscape)  {
+	.block {
+		&.block-hero, &.block--landing-hero {
+			.hero-background {
+				background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local !important;
+				}
+			}
+		}
+	}
+}
+
+@media screen
+and (min-device-width : $width-small)
+and (max-device-width : $width-medium)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+	.block {
+		&.block-hero, &.block--landing-hero {
+			.hero-background {
+				background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local !important;
+				}
+			}
+		}
+	}
+}
+
+@media screen
+and (min-width : $width-small)
+and (max-width : $width-medium)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2)  {
+	.block {
+		&.block-hero, &.block--landing-hero {
+			.hero-background {
+				background-attachment: local;
+				.backgrounds {
+					background-color: $color--white;
+					background-attachment: local !important;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"accordion_list_title" : "Quisque Luctus Feugiat",
+	"accordion_items" : [
+		{
+			"accordion_item_header" : "Donec eu fermentum tortor, eget dapibus lectus?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		},
+		{
+			"accordion_item_header" : "Donec eu fermentum tortor, eget dapibus lectus?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		},
+		{
+			"accordion_item_header" : "Donec eu fermentum tortor, eget dapibus lectus?",
+			"accordion_item_body" : "<p>Duis maximus sapien sed magna semper ultrices. Quisque luctus feugiat bibendum. Nunc sollicitudin euismod mauris, eget consequat ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+		}
+	]
+}

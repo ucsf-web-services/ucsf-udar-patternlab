@@ -1,0 +1,21 @@
+{
+	"cta_title" : "This Could Use a Title",
+	"cta_background" : "/images/MBH_hospital.jpg",
+	"ctas" : [
+		{
+			"text" : "Find fundraising opportunities across UCSF",
+			"link_label" : "ATTEND AN EVENT",
+			"link_href" : "#"
+		},
+		{
+			"text" : "Ready to attend bespoke UCSF events?",
+			"link_label" : "JOIN A GIVING SOCIETY",
+			"link_href" : "#"
+		},
+		{
+			"text" : "Create your own life-changing event",
+			"link_label" : "BE A FUNDRAISER",
+			"link_href" : "#"
+		}
+	]
+}

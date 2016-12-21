@@ -1,0 +1,115 @@
+{
+    "title" : "Why Your Giving Matters",
+    "intro_text" : "<p>When you give to UCSF, you become something indispensable in our quest to provide great medicine: You become a partner — in every discovery, in the way we prepare future physicians and researchers, and in the care and hope we bring to people across the globe.</p><p>The spirit of partnership sets UCSF apart and makes us one of the world’s most innovative and productive sources of health care breakthroughs. We invite you to advance the world of science and medicine with us.</p>",
+
+    "impact_section" : [
+        {
+            "color" : "teal",
+            "hero_image" : "/images/MBH_hospital.jpg",
+            "story_title" : "Research is at the Heart of What We Do",
+            "copy_text" : "UC San Francisco is leading revolutions in health – and those revolutions often start in the lab. From basic science to clinical research, we are constantly pushing scientific boundaries and earning worldwide recognition for our discoveries. UC San Francisco is leading revolutions in health – and those revolutions often start in the lab. From basic science to clinical research, we are constantly pushing scientific boundaries and earning worldwide recognition for our discoveries. Pellentesque id risus in purus aliquet dignissim. Mauris ullamcorper nulla et magna iaculis, ut tempor lorem pellentesque.",
+            "link" : {
+                "label": "SUPPORT RESEARCH",
+                "href" : "#"
+            },
+            "stats" : [
+                {
+                  "value" : "#12",
+                  "text" : "Public recipient of research funing from the National Institutes of Health"
+                },
+                {
+                  "value" : "100+",
+                  "text" : "Biotech startup companies spun off from UCSF discoveries"
+                }
+            ],
+            "story" :{
+                "title" : "Bluestone to Head Parker Cancer Immunotherapy Institute",
+                "sub_title" : "The Parker Foundation with a $250 million grant has launched the Parker Institute for Cancer Immunotherapy.",
+                "hero_image" : "/images/MBH_hospital.jpg",
+                "link" : "#"
+            }
+        },
+        {
+            "color" : "green",
+            "hero_image" : "/images/MBH_hospital.jpg",
+            "story_title" : "Educating the Next Generation of Leaders",
+            "copy_text" : "UC San Francisco is leading revolutions in health – and those revolutions often start in the lab. From basic science to clinical research, we are constantly pushing scientific boundaries and earning worldwide recognition for our discoveries. UC San Francisco is leading revolutions in health – and those revolutions often start in the lab. From basic science to clinical research, we are constantly pushing scientific boundaries and earning worldwide recognition for our discoveries. Pellentesque id risus in purus aliquet dignissim. Mauris ullamcorper nulla et magna iaculis, ut tempor lorem pellentesque.",
+            "link" : {
+                "label": "SUPPORT EDUCATION",
+                "href" : "#"
+            },
+            "stats" : [
+                {
+                  "value" : "#12",
+                  "text" : "Public recipient of research funing from the National Institutes of Health"
+                },
+                {
+                  "value" : "100+",
+                  "text" : "Biotech startup companies spun off from UCSF discoveries"
+                }
+            ],
+            "story" :{
+                "title" : "Bluestone to Head Parker Cancer Immunotherapy Institute",
+                "sub_title" : "The Parker Foundation with a $250 million grant has launched the Parker Institute for Cancer Immunotherapy.",
+                "hero_image" : "/images/MBH_hospital.jpg",
+                "link" : "#"
+            }
+        },
+        {
+            "color" : "light-blue",
+            "hero_image" : "/images/MBH_hospital.jpg",
+            "story_title" : "Patient-Centered Care",
+            "copy_text" : "UC San Francisco is leading revolutions in health – and those revolutions often start in the lab. From basic science to clinical research, we are constantly pushing scientific boundaries and earning worldwide recognition for our discoveries. UC San Francisco is leading revolutions in health – and those revolutions often start in the lab. From basic science to clinical research, we are constantly pushing scientific boundaries and earning worldwide recognition for our discoveries. Pellentesque id risus in purus aliquet dignissim. Mauris ullamcorper nulla et magna iaculis, ut tempor lorem pellentesque.",
+            "link" : {
+                "label": "SUPPORT EDUCATION",
+                "href" : "#"
+            },
+            "stats" : [
+                {
+                  "value" : "#12",
+                  "text" : "Public recipient of research funing from the National Institutes of Health"
+                },
+                {
+                  "value" : "100+",
+                  "text" : "Biotech startup companies spun off from UCSF discoveries"
+                }
+            ],
+            "story" :{
+                "title" : "Link could lead to drugs that block Zika infection",
+                "sub_title" : "UC San Francisco scientists strengthen the link between Zika virus and microcephaly.",
+                "hero_image" : "/images/MBH_hospital.jpg",
+                "link" : "#"
+            }
+        }
+    ],
+    "impact_stories_grid" : [
+        {
+            "color" : "light-blue",
+            "date" : "August 3, 2016",
+            "text" : "UCSF Medical Center Ranked 7th Best Hospital in the U.S. for 2016-2017",
+            "category" : "PATIENT CARE",
+            "link" : "#"
+        },
+        {
+            "color" : "teal",
+            "date" : "August 2, 2016",
+            "text" : "New Understanding of Thirst Emerges from Brain Study",
+            "category" : "RESEARCH",
+            "link" : "#"
+        },
+        {
+            "color" : "light-blue",
+            "date" : "July 28, 2016",
+            "text" : "Bay Area Accountable Care Network Takes Shape",
+            "category" : "PATIENT CARE",
+            "link" : "#"
+        },
+        {
+            "color" : "green",
+            "date" : "July 24, 2016",
+            "text" : "School of Medicine Launches New Curriculum to Train the Doctors of the Future",
+            "category" : "EDUCATION",
+            "link" : "#"
+        }
+    ]
+}

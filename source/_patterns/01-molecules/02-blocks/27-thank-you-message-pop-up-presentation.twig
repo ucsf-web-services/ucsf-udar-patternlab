@@ -1,0 +1,11 @@
+<div id="message_popup" class="presentation">
+	<div class="popup_body">
+		<div class="popup_content">
+			{% if body %}
+				{{ body|raw }}
+			{% endif %}
+		</div>
+		<button class="btn btn--secondary pull-right" id="popupToggle">Ok</button>
+	</div>
+</div>
+

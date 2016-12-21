@@ -1,0 +1,32 @@
+<div class="ways-to-give-form-small {% block classes %}{{ class_controller }}{% endblock %}">
+    {% block label %}
+        {% if label %}
+            <h4>{{ label }}</h4>
+        {% endif %}
+    {% endblock %}
+    <form name="ways-to-give" id="give" method="GET" action="{% block post_url %}{{ post_url }}{% endblock %}">
+        <fieldset>
+            <legend class="visually-hidden">Give Form:</legend>
+            <div class="ways-to-give-options--wrapper ">
+                {% block amounts %}
+                  {% for amount in giving_amounts %}
+                    <div class="ways-to-give-option" role="button">
+                        <input type="radio" name="{{ choice_name }}" id="{{ choice_name }}_{{ amount.value }}" value="{{ amount.value }}"  {{ amount.is_checked ? 'checked' : '' }}  />
+                        <label for="{{ choice_name }}_{{ amount.value }}">{{ amount.label }}</label>
+                    </div>
+                  {% endfor %}
+                {% endblock %}
+                <div class="ways-to-give-option" role="button">
+                    <label class="visually-hidden" for="give_value_other">Other</label>
+                    <input type="radio" name="give-value" id="give_value_other" value="other" />
+                    <label class="visually-hidden" for="give_input_other">Other Input</label>
+                    <input class="give-value-other-input" type="text" id="give_input_other" name="{{ amount }}" />
+                    <div class="others-dollar-label"><span>$</span> <span class="label-text">Other</span></div>
+                </div>
+                <div class="ways-to-give-option submit-btn" role="button">
+                   <button class="btn btn--primary" type="submit">Make a gift</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>

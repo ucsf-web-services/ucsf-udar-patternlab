@@ -1,0 +1,37 @@
+
+<div class="block block-contact-us--big">
+	{% block contact_list_title %}
+	<p class="body-text-medium-20">{{ contact_list_title }}</h5>
+	{% endblock %}
+	{% block address %}
+	    {% for item in address %}
+	    <div class="contact-detail-item">
+			<span class="fa fa-map-marker"></span>
+			<span itemprop="address">
+				{{ item.address|raw }}
+			</span>
+		</div>
+		{% endfor %}
+	{% endblock %}
+	{% block telephone %}
+	    {% for item in telephone %}
+	        <div class="contact-detail-item">
+				<span class="fa fa-phone"></span>
+				<span itemprop="telephone">
+					<a href="tel:{{ item.number }}">{{ item.label }}</a>
+				</span>
+			</div>
+	    {% endfor %}
+	{% endblock %}
+	{% block email %}
+		{% for item in email %}
+	    <div class="contact-detail-item">
+			<span class="fa fa-envelope"></span>
+			<span itemprop="email">
+				<a href="mailto:{{ item.email }}">Email Us</a>
+			</span>
+		</div>
+		{% endfor %}
+	{% endblock %}
+</div>
+

@@ -1,0 +1,10 @@
+<div class="carousel-with-header">
+	{% include '@molecules/01-text/09-carousel-header.twig' with {
+		"header_text" : header_text
+	} %}
+	{% block gallery %}
+        {% include "@molecules/02-blocks/11-article-image-carousel.twig" with {
+        	"article_carousel_content" : article_carousel_content
+        } %}
+    {% endblock %}
+</div>

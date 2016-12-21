@@ -1,0 +1,31 @@
+{% block label %}
+	<div class="content-area">
+		<div class="column-wrapper">
+			<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+				<h3 class="text-align--center">{{ cta_title }}</h3>
+			</div>
+		</div>
+	</div>
+{% endblock %}
+
+<div class="photo-cta" style="background-image: url({% block image %}{{ cta_background }}{% endblock %});">
+	<div class="content-area">
+		<div class="column-wrapper">
+			<div class="column-large-12 column-medium-12 column-small-12 column-xsmall-12">
+				<div class="photo-cta-list">
+					{% block content %}
+						{% if ctas %}
+							{% for item in ctas %}
+							    	{% include '@molecules/02-blocks/20-photo-cta-item.twig' with {
+								    	"text" : item.text,
+								    	"link_label" : item.link_label,
+								    	"link_href" : item.link_href
+								    } %}
+							{% endfor %}
+						{% endif %}
+					{% endblock %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+{
+  "title" : "Page Not Found",
+  "breadcrumb_links" :  {
+		"links": [
+			{
+				"label" : "Home",
+				"link" : "#"
+			},
+			{
+				"label" : "Error Message",
+				"link" : "#"
+			}
+		]
+	}
+}

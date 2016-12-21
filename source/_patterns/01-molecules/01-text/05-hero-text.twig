@@ -1,0 +1,14 @@
+<div class="hero-text align-{{ alignment }}">
+
+	<h1 class="white-text">{{ heading }}</h1>
+
+	{% if body %}
+		<p>{{ body|raw }}</p>	
+	{% endif %}
+	{% if link_text %}
+		{% include '@molecules/01-text/06-link-with-icon.twig' with {
+			"link_text" : link_text,
+			"link_href" : link_href
+		} %}
+	{% endif %}
+</div>

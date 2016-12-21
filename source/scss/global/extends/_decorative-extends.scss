@@ -1,0 +1,46 @@
+@media all and (max-width:$bp--xsmall-max){
+    /*** xsmall visible helpers ***/
+    .medium--visible, .small--visible, .large--visible{ display: none !important; }
+    .xsmall--visible{ display: block !important; }
+
+    /*** xsmall visible helpers ***/
+    .small--hidden, .medium--hidden, .large--hidden{ display: block; }
+    .xsmall--hidden{  display: none; }
+}
+
+@media all and (min-width:$bp--small-up){
+    /*** small visible helpers ***/
+    .xsmall--visible, .medium--visible, .large--visible{ display: none !important; }
+    .small--visible{ display: block !important; }
+
+    /*** small hidden helpers ***/
+
+    .xsmall--hidden, .medium--hidden, .large--hidden { display: block; }
+    .small--hidden{  display: none; }
+}
+
+@media all and (min-width:$bp--medium-up){
+    /*** medium visible helpers ***/
+    .xsmall--visible, .small--visible, .large--visible{ display: none !important; }
+    .medium--visible{ display: block !important; }
+
+    /*** medium hidden helpers ***/
+
+    .xsmall--hidden, .small--hidden, .large--hidden{ display: block; }
+    .medium--hidden{ display: none; }
+}
+
+@media all and (min-width:$bp--large-up){
+    /*** large visible helpers ***/
+    .xsmall--visible, .small--visible, .medium--visible{ display: none; }
+    .large--visible{ display: block !important; }
+
+    /*** large hidden helpers ***/
+
+    .xsmall--hidden, .small--hidden, .medium--hidden{ display: block; }
+    .large--hidden{ display: none; }
+}
+
+.visually-hidden {
+    display: none !important;
+}

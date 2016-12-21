@@ -1,0 +1,11 @@
+<div class="photo-cta-item column-large-4 column-medium-4 column-small-4 column-xsmall-12">
+	<div class="photo-cta-content--wrapper">
+		<p class="body-text-regular-18">{{ text }}</p>
+		{% if link_label %}
+			{% include '@molecules/01-text/06-link-with-icon.twig' with {
+					"link_text" : link_label,
+					"link_href" : link_href
+			} %}
+	    {% endif %}
+	</div>
+</div>

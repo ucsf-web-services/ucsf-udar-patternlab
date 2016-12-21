@@ -1,0 +1,17 @@
+{
+	"content" : "<p>Over 500 people attended this standing-room only event raising $22,000 for cancer research and the UCSF research team.</p>",
+	"event_images" : [
+		{
+			"image" : "http://placehold.it/720x360",
+			"caption" : "Proin ultrices molestie ex, id venenatis diam imperdiet eu. Aenean suscipit imperdiet mi, ut pulvinar sapien volutpat ut. Praesent in vehicula nisi."
+		},
+		{
+			"image" : "http://placehold.it/360x720",
+			"caption" : "Proin ultrices molestie ex, id venenatis diam imperdiet eu. Aenean suscipit imperdiet mi, ut pulvinar sapien volutpat ut. Praesent in vehicula nisi."
+		},
+		{
+			"image" : "http://placehold.it/720x360",
+			"caption" : "Proin ultrices molestie ex, id venenatis diam imperdiet eu. Aenean suscipit imperdiet mi, ut pulvinar sapien volutpat ut. Praesent in vehicula nisi."
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "color" : "teal",
+  "body_text" : "UC San Francisco is leading revolutions in health – and those revolutions often start in the lab. From basic science to clinical research, we are constantly pushing scientific boundaries and earning worldwide recognition for our discoveries. UC San Francisco is leading revolutions in health – and those revolutions often start in the lab. From basic science to clinical research, we are constantly pushing scientific boundaries and earning worldwide recognition for our discoveries. Pellentesque id risus in purus aliquet dignissim. Mauris ullamcorper nulla et magna iaculis, ut tempor lorem pellentesque.",
+  "link_label":"SUPPORT RESEARCH",
+  "link_href" : "#",
+  "stats" : [
+      {
+        "value" : "#12",
+        "text" : "Public recipient of research funing from the National Institutes of Health"
+      },
+      {
+        "value" : "100+",
+        "text" : "Biotech startup companies spun off from UCSF discoveries"
+      }
+  ]
+}

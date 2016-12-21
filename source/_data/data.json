@@ -1,0 +1,299 @@
+{
+  "bodyClass" : "",
+  "key": "value",
+  "key2": "use this for variables you want to load globally",
+  "title": "Nullizzle shizznit velizzle, hizzle, suscipit own yo', gravida vizzle, arcu.",
+  "intro_text": "<p>Nullizzle shizznit velizzle, hizzle, suscipit own yo', gravida vizzle, arcu.</p>",
+  "img": {
+    "avatar": {
+      "src": "http://placeimg.com/100/100/people",
+      "alt": "Avatar"
+    },
+    "square": {
+      "src": "http://placeimg.com/300/300/nature",
+      "alt": "Square"
+    },
+    "rectangle": {
+      "src": "http://placeimg.com/400/300/tech",
+      "alt": "Rectangle"
+    },
+    "landscape-4x3": {
+      "src": "http://placeimg.com/400/300/tech",
+      "alt": "4x3 Image"
+    },
+    "landscape-16x9": {
+      "src": "http://placeimg.com/640/360/tech",
+      "alt": "16x9 Image"
+    },
+    "hero_image": {
+      "src" : "/images/home-hero-image.jpg",
+      "alt" : "Hero Image"
+    },
+    "ways_to_give_bg" : {
+      "src" : "/images/MBH_hospital_cropped.jpg",
+      "alt" : "Ways to Give background"
+    },
+    "placeholder_16x9" : {
+      "src" : "/images/placeholder_16x9.png",
+      "alt" : "Placeholder 16x9"
+    }
+  },
+  "headline": {
+    "short": "Lorizzle pimpin' dolizzle sit amet I",
+    "medium": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shit volutpizzle, my"
+  },
+  "excerpt": {
+    "short": "Shizz fo shizzle mah nizzle fo rizzle, mah home g-dizzle, gravida vizzle, arcu. Pellentesque crunk tortizzle. Sed erizzle. Black izzle sheezy telliv.",
+    "medium": "Izzle crazy tempizzle sizzle. We gonna chung gangsta get down get down fo shizzle turpizzle. Away break it down black. Pellentesque bling bling rhoncus fo shizzle. In hac the bizzle platea dictumst. Black dapibizzle. Crackalackin.",
+    "long": "Curabitizzle fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni."
+  },
+  "description": "Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.",
+  "url": "http://lorizzle.nl/",
+  "name": {
+    "first": "Junius",
+    "firsti": "J",
+    "middle": "Marius",
+    "middlei": "M",
+    "last": "Koolen",
+    "lasti": "K"
+  },
+  "year": {
+    "long": "2013",
+    "short": "13"
+  },
+  "month": {
+    "long": "January",
+    "short": "Jan",
+    "digit": "01"
+  },
+  "dayofweek": {
+    "long": "Sunday",
+    "short": "Sun"
+  },
+  "day": {
+    "long": "01",
+    "short": "1",
+    "ordinal": "st"
+  },
+  "hour": {
+    "long": "06",
+    "short": "6",
+    "military": "06",
+    "ampm": "am"
+  },
+  "minute": {
+    "long": "20",
+    "short": "20"
+  },
+  "seconds": "31",
+  "footer" : {
+    "logo_link" : "/images/UCSF_logobox_white.png",
+    "copyright" :"© 2016 University of California San Francisco",
+    "contact" : {
+      "label" : "Contact",
+      "link" : "#"
+    },
+    "privacy" : {
+      "label" : "Privacy",
+      "link" : "#"
+    },
+    "social_links" : {
+      "facebook" : "https://facebook.com",
+      "twitter" : "https://twitter.com"
+    },
+    "left_section" : {
+      "title" : "THE FOUNDATION",
+      "content" : "The UCSF Foundation serves as the giving, receiving, and investing arm of the greater UCSF community and is operated by the Office of Development and Alumni Relations.",
+      "links" : {
+        "all" : [
+          { "label" : "UCSF Magazine", "link" : "#" },
+          { "label" : "UCSF Alumni", "link" : "#" }
+        ]
+      }
+    },
+    "center_section" : {
+      "title" : "About",
+      "links" : {
+        "left" : [
+          { "label" : "About", "link" : "#" },
+          { "label" : "Financials", "link" : "#" },
+          { "label" : "Careers", "link" : "#" },
+          { "label" : "Give", "link" : "#" }
+        ],
+        "right" : [
+          { "label" : "Planned Giving", "link" : "#" },
+          { "label" : "Corporate & Foundationsu", "link" : "#" },
+          { "label" : "Employee Giving", "link" : "#" }
+        ]
+      }
+    },
+    "right_section" : {
+      "title" : "THE FOUNDATION",
+      "description" : "The UCSF Foundation serves as the giving, receiving, and investing arm of the greater UCSF community and is operated by the Office of Development and Alumni Relations."
+    }
+  },
+  "nav_links" : {
+    "links" : [
+      {
+        "label" : "Why Give", "link" : "#", "sublinks" : ""
+      },
+      {
+        "label" : "How to Give",
+        "link" : "#",
+        "sublinks" : [
+            {
+              "label" : "Alumni / Class", "link" : "#"
+            },
+            {
+              "label" : "Honor / Memorial", "link" : "#"
+            },
+            {
+              "label" : "Corporate & Foundation", "link" : "#"
+            },
+            {
+              "label" : "Planned Giving", "link" : "#"
+            },
+            {
+              "label" : "Endowments", "link" : "#"
+            },
+            {
+              "label" : "In-kind / Stock", "link" : "#"
+            },
+            {
+              "label" : "Giving FAQ", "link" : "#"
+            }
+        ]
+      },
+      {
+        "label" : "What to Support", "link" : "#", "sublinks" : ""
+      },
+      {
+        "label" : "Get Involved", "link" : "#", "sublinks" : ""
+      }
+    ]
+  },
+  "logo_box" : "/images/UCSF_logobox_navy_RGB.svg",
+  "logo" : "/images/UCSF_logo_white_RGB.svg",
+  "logo_footer" : "/images/UCSF_Logo_Footer.svg",
+  "mobile_toggles" : {
+    "buttons" : [
+      {
+        "class" : "mobile-search-form-toggle", "icon" : "fa fa-search", "label" : "Search giving.ucsf.edu"
+      },
+      {
+        "class" : "mobile-menu-toggle", "icon" : "fa fa-bars", "label" : "Toggle Menu"
+      }
+    ]
+  },
+  "global_header_links" : {
+    "links" : [
+      {
+        "label" : "About UCSF", "link" : "#"
+      },
+      {
+        "label" : "UCSF Medical Center", "link" : "#"
+      }
+    ]
+  },
+  "alert" : {
+    "href" : "#",
+    "text" : "<b>It’s Giving Tuesday!</b> Click here to make your gift now."
+  },
+  "hero_content" : {
+    "heading" : "Your giving inspires a world of good health.",
+    "link_text" : "SEE YOUR IMPACT",
+    "link_href" : "#",
+    "dummy" : {
+      "heading" : "Your text here.",
+      "link_text" : "Your link here",
+      "link_href" : "#"
+    }
+  },
+  "give_ways_content" : {
+    "full" : {
+      "heading" : "Give Where it’s Needed Most",
+      "body" : "Everyday, UCSF faces big challenges. Your gifts make it possible for us to act quickly or conduct research and nimbly develop innovative science. From responding to disease outbreaks to exploring a cure for cancer, give a gift where it is needed today.",
+      "cta" : {
+        "label" : "EXPLORE OTHER WAYS OF GIVING",
+        "link" : "#"
+      }
+    },
+    "small" : {
+      "heading" : "Give a Gift of Tribute",
+      "body" : "",
+      "cta" : ""
+    }
+  },
+  "homepage_impact_stories" : {
+    "first" : {
+      "title" : "Bluestone to Head Parker Cancer Immunotherapy Institute",
+      "copy_text" : "The Parker Foundation with a $250 million grant has launched the Parker Institute for Cancer Immunotherapy.",
+      "link" : "#",
+      "image_url" : "/images/MBH_hospital.jpg"
+    },
+    "second" : {
+      "title" : "Bluestone to Head Parker Cancer Immunotherapy Institute",
+      "copy_text" : "The Parker Foundation with a $250 million grant has launched the Parker Institute for Cancer Immunotherapy.",
+      "link" : "#",
+      "image_url" : "/images/MBH_hospital.jpg"
+    },
+    "third" : {
+      "title" : "Bluestone to Head Parker Cancer Immunotherapy Institute",
+      "copy_text" : "The Parker Foundation with a $250 million grant has launched the Parker Institute for Cancer Immunotherapy.",
+      "link" : "#",
+      "image_url" : "/images/MBH_hospital.jpg"
+    }
+  },
+  "start_fundraiser": {
+    "title" : "Make a Difference Where it Matters.",
+    "body_text" : "Start your own fundraiser and share why UCSF is important to you. Our online platform makes it easy to make a difference.",
+    "link_url" : "#",
+    "link_label" : "Start a Fundraiser"
+  },
+  "give_to": {
+    "title" : "Your giving is the foundation for our greatest innovations in research, education, and patient care.",
+    "body_text" : "Give a gift directly where it is needed the most.",
+    "link_url" : "#",
+    "link_label" : "Give to UCSF "
+  },
+  "give_to_full" : "<p>Your support is the foundation for our greatest innovations in <b>research, education, and patient care</b>.</p>",
+  "give" : {
+    "url" : "#",
+    "label" : "Give to UCSF "
+  },
+  "nav_close_icon" : "/images/close_icon.svg",
+  "amount" : "sample_amount",
+  "choice_name" : "sample_choice",
+  "content" : {
+    "label" : "Give Where it’s Needed Most",
+    "body" : "<p>Everyday, UCSF faces big challenges. Your gifts make it possible for us to act quickly or conduct research and nimbly develop innovative science. From responding to disease outbreaks to exploring a cure for cancer, give a gift where it is needed today.</p>"
+  },
+  "image" : "/images/MBH_hospital_cropped.jpg",
+  "anchor" : {
+    "text" : "EXPLORE OTHER WAYS OF GIVING",
+    "href" : "http://www.example.com/working"
+  },
+  "giving_amounts" : [
+    {
+      "label" : "$50", 
+      "value" : 50,
+      "is_checked" : false
+    },
+    {
+      "label" : "$100", 
+      "value" : 100,
+      "is_checked" : true
+    },
+    {
+      "label" : "$250", 
+      "value" : 250,
+      "is_checked" : false
+    },
+    {
+      "label" : "$500", 
+      "value" : 500,
+      "is_checked" : false
+    }
+  ],
+  "class_controller" : "sidebar"
+}

@@ -1,0 +1,19 @@
+<div class="whats-hot-item">
+	<div class="column-wrapper">
+		<div class="column-large-10 column-medium-10 column-small-11 column-xsmall-12">
+			{% if wh_item_link %}
+				<a class="whats-hot-link" href="{{ wh_item_link }}">
+					<h4>
+						{{ wh_item_heading }}
+					</h4>
+					<p>{{ wh_item_body|raw }}</p>
+				</a>
+			{% else %}
+				<h4 class="whats-hot-heading">
+					{{ wh_item_heading }}
+				</h4>
+				<p>{{ wh_item_body|raw }}</p>
+			{% endif %}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,69 @@
+$grids : 12;
+$columnPrefix : column;
+$columnNames : xsmall small medium large;
+$breakpoints : $bp--small-up $bp--medium-up $bp--large-up;
+
+@each $column in $columnNames{
+    @for $i from 1 through $grids{
+        .#{$columnPrefix}-#{$column}-#{$i}{
+            padding-left: $gutter--size + px;
+            padding-right: $gutter--size + px;    
+        }
+    }
+}
+
+@media all and (min-width:$bp--xsmall-up){
+    @for $i from 1 through $grids{
+        .#{$columnPrefix}-xsmall-#{$i}{
+            width: percentage($i / $grids); 
+            float: left;
+            position: relative;
+            min-height: 1px;
+        }
+        .#{$columnPrefix}-xsmall-offset-#{$i}{
+            margin-left: percentage($i / $grids); 
+        }
+    }
+}
+
+@media all and (min-width:$bp--small-up){
+    @for $i from 1 through $grids{
+        .#{$columnPrefix}-small-#{$i}{
+            width: percentage($i / $grids);
+            float: left;
+            position: relative;
+            min-height: 1px;
+        }
+        .#{$columnPrefix}-small-offset-#{$i}{
+            margin-left: percentage($i / $grids); 
+        }
+    }
+}
+
+@media all and (min-width:$bp--medium-up){
+    @for $i from 1 through $grids{
+        .#{$columnPrefix}-medium-#{$i}{
+            width: percentage($i / $grids);
+            float: left;
+            position: relative;
+            min-height: 1px;
+        }
+        .#{$columnPrefix}-medium-offset-#{$i}{
+            margin-left: percentage($i / $grids); 
+        }
+    }
+}
+
+@media all and (min-width:$bp--large-up){
+    @for $i from 1 through $grids{
+        .#{$columnPrefix}-large-#{$i}{
+            width: percentage($i / $grids);
+            float: left;
+            position: relative;
+            min-height: 1px;
+        }
+        .#{$columnPrefix}-large-offset-#{$i}{
+            margin-left: percentage($i / $grids); 
+        }
+    }
+}

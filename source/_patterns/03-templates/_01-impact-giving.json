@@ -1,0 +1,116 @@
+{
+    "title" : "Lorem Ipsum",
+    "intro_text" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac maximus tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi purus ex, tempor vel tellus ac, scelerisque finibus est. Proin lorem nibh, sollicitudin nec lacinia at, gravida sed lacus. Duis ac sem nisi. Integer vulputate lobortis venenatis. Sed tortor dolor, posuere ac velit in, faucibus vestibulum diam.</p><p>Pellentesque vitae luctus tellus, eget iaculis nibh. Vivamus eleifend malesuada ullamcorper. Aenean cursus maximus diam, eget efficitur lectus tincidunt ut. Nunc a tortor quis ipsum condimentum egestas ac mollis augue. Sed rutrum mi ut dignissim vehicula. Ut cursus urna ut mauris consequat, id lobortis mi elementum. Aenean luctus ipsum massa. Nullam augue elit, porttitor vitae erat accumsan, convallis vulputate urna. Phasellus posuere urna ut arcu volutpat lobortis non vel magna.</p> ",
+    
+    "impact_section" : [
+        {
+            "color" : "teal",
+            "hero_image" : "https://placeholdit.imgix.net/~text?txtsize=26&txt=Full%20width%20image&w=1440&h=400",
+            "story_title" : "Lorem ipsum dolor sit amet",
+            "copy_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac maximus tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi purus ex, tempor vel tellus ac, scelerisque finibus est. Proin lorem nibh, sollicitudin nec lacinia at, gravida sed lacus. Duis ac sem nisi.",
+            "link" : {
+                "label": "SUPPORT RESEARCH",
+                "href" : "#"
+            },
+            "stats" : [
+                {
+                  "value" : "#12",
+                  "text" : "Lorem ipsum dolor"
+                },
+                {
+                  "value" : "100+",
+                  "text" : "Lorem ipsum dolor"
+                }
+            ],
+            "story" :{
+                "title" : "Lorem ipsum dolor sit amet",
+                "sub_title" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac maximus tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "hero_image" : "https://placeholdit.imgix.net/~text?txtsize=72&txt=Sample%20Image&w=1440&h=400",
+                "link" : "#"
+            }   
+        },
+         {
+            "color" : "green",
+            "hero_image" : "https://placeholdit.imgix.net/~text?txtsize=26&txt=Full%20width%20image&w=1440&h=400",
+            "story_title" : "Lorem ipsum dolor sit amet",
+            "copy_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac maximus tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi purus ex, tempor vel tellus ac, scelerisque finibus est. Proin lorem nibh, sollicitudin nec lacinia at, gravida sed lacus. Duis ac sem nisi.",
+            "link" : {
+                "label": "SUPPORT RESEARCH",
+                "href" : "#"
+            },
+            "stats" : [
+                {
+                  "value" : "#12",
+                  "text" : "Lorem ipsum dolor"
+                },
+                {
+                  "value" : "100+",
+                  "text" : "Lorem ipsum dolor"
+                }
+            ],
+            "story" :{
+                "title" : "Lorem ipsum dolor sit amet",
+                "sub_title" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac maximus tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "hero_image" : "https://placeholdit.imgix.net/~text?txtsize=72&txt=Sample%20Image&w=1440&h=400",
+                "link" : "#"
+            }   
+        },
+        {
+            "color" : "blue",
+            "hero_image" : "https://placeholdit.imgix.net/~text?txtsize=26&txt=Full%20width%20image&w=1440&h=400",
+            "story_title" : "Lorem ipsum dolor sit amet",
+            "copy_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac maximus tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi purus ex, tempor vel tellus ac, scelerisque finibus est. Proin lorem nibh, sollicitudin nec lacinia at, gravida sed lacus. Duis ac sem nisi.",
+            "link" : {
+                "label": "SUPPORT RESEARCH",
+                "href" : "#"
+            },
+            "stats" : [
+                {
+                  "value" : "#12",
+                  "text" : "Lorem ipsum dolor"
+                },
+                {
+                  "value" : "100+",
+                  "text" : "Lorem ipsum dolor"
+                }
+            ],
+            "story" :{
+                "title" : "Lorem ipsum dolor sit amet",
+                "sub_title" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac maximus tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "hero_image" : "https://placeholdit.imgix.net/~text?txtsize=72&txt=Sample%20Image&w=1440&h=400",
+                "link" : "#"
+            }   
+        }
+    ],
+    "impact_stories_grid" : [
+        {
+            "color" : "light-blue",
+            "date" : "Date",
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "category" : "CATEGORY",
+            "link" : "#"
+        },
+        {
+            "color" : "light-blue",
+            "date" : "Date",
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "category" : "CATEGORY",
+            "link" : "#"
+        },
+        {
+            "color" : "light-blue",
+            "date" : "Date",
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "category" : "CATEGORY",
+            "link" : "#"
+        },
+        {
+            "color" : "light-blue",
+            "date" : "Date",
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "category" : "CATEGORY",
+            "link" : "#"
+        }
+    ],
+    "give_to_full" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac maximus tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Morbi purus ex, tempor vel tellus ac, scelerisque finibus est.</b></p>"
+}
