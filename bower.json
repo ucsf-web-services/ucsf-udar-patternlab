@@ -1,0 +1,30 @@
+{
+  "name": "ucsf-pattern-starter",
+  "authors": [
+    "Norman Manantan <norman@flags.fm>"
+  ],
+  "description": "Components for PL work via Bower",
+  "main": "bower.json",
+  "keywords": [
+    "js",
+    "css"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "parallax.js": "^1.4.2",
+    "font-awesome": "^4.6.3",
+    "slick-carousel": "^1.6.0",
+    "masonry": "^4.1.1",
+    "imagesloaded": "^4.1.1"
+  }
+}
